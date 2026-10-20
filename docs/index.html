@@ -42,9 +42,11 @@ input[type=search]{flex:1;min-width:160px}
 .mc label{font-size:13px;color:var(--muted)}
 .mc input{width:118px}
 .mc button{font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);cursor:pointer}
+.spark{display:block}
+.qlegend{font-size:12px;color:var(--muted);margin:0 2px 8px}
 .count{font-size:13px;color:var(--muted);margin:0 2px 8px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:12px}
-.list .row{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line);color:inherit}
+.list .row{display:grid;grid-template-columns:34px 1fr auto auto;gap:10px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line);color:inherit}
 .list .row:last-child{border-bottom:0}
 .list .row:hover{background:var(--bg)}
 .rank{color:var(--muted);font-size:13px;text-align:right}
@@ -78,7 +80,9 @@ input[type=search]{flex:1;min-width:160px}
 .foot{color:var(--muted);font-size:12px;margin-top:18px}
 @media (max-width:560px){
   .kpis{grid-template-columns:repeat(2,1fr)}
-  .list .row{grid-template-columns:26px 1fr auto;padding:11px 12px}
+  .list .row{grid-template-columns:22px 1fr auto auto;gap:8px;padding:11px 10px}
+  .pct{min-width:70px}
+  .pct b{font-size:15px}
 }
 </style>
 </head>
@@ -117,6 +121,19 @@ const mcOK = c => {
   if (c.mcap_cr == null) return false;
   return (lo == null || c.mcap_cr >= lo) && (hi == null || c.mcap_cr <= hi);
 };
+function spark(c) {
+  if (!c.q_val) return "";
+  const v = c.q_val.map(x => x || 0), n = c.q_n || [], L = D.q_labels || [];
+  const W = 64, H = 30, bw = W / v.length, max = Math.max(...v);
+  const bars = v.map((x, i) => {
+    const h = max ? Math.max(x ? 2 : 0, x / max * (H - 2)) : 0;
+    const last = i === v.length - 1;
+    const tip = `${L[i] || ""}: ${x ? cr(x) : (n[i] ? "value not disclosed" : "no orders")}${n[i] ? ` (${n[i]} order${n[i] > 1 ? "s" : ""})` : ""}${last ? " · quarter so far" : ""}`;
+    return h ? `<rect x="${i * bw + 1}" y="${H - h}" width="${bw - 2}" height="${h}" rx="1" fill="var(--bar)" opacity="${last ? .45 : 1}"><title>${esc(tip)}</title></rect>`
+             : `<rect x="${i * bw + 1}" y="${H - 1}" width="${bw - 2}" height="1" fill="var(--line)"><title>${esc(tip)}</title></rect>`;
+  }).join("");
+  return `<svg class="spark" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="Order value, last ${v.length} quarters">${bars}</svg>`;
+}
 function bindMc(draw) {
   const num = v => v === "" ? null : Math.max(0, +v);
   $("#mcmin").oninput = e => { state.mcMin = num(e.target.value); save(); draw(); };
@@ -158,6 +175,7 @@ function ranking() {
       ${mcHTML()}
     </div>
     <div class="count" id="cnt"></div>
+    ${D.q_labels ? `<div class="qlegend">Bars: order value per quarter, ${D.q_labels[0]} → ${D.q_labels[D.q_labels.length - 1]} (faded bar = current quarter so far)</div>` : ""}
     <div class="card list" id="list"></div>`;
   $("#sort").value = state.sort;
   const draw = () => {
@@ -174,6 +192,7 @@ function ranking() {
           <div class="meta">${c.n_orders} order${c.n_orders > 1 ? "s" : ""} · ${cr(c.value_cr)} · Rev ${cr(c.rev_ttm_cr)} · MCap ${cr(c.mcap_cr)}${c.sector ? " · " + esc(c.sector) : ""}</div></div>
         <div class="pct"><b class="num">${pc(c[k === "value_cr" || k === "n_recent" ? "pct_rev" : k])}</b>
           <div class="barw"><i style="width:${Math.min(100, (c.pct_rev || 0) / max * 100)}%"></i></div></div>
+        <div>${spark(c)}</div>
       </a>`).join("") : '<div class="empty">No companies match.</div>';
   };
   $("#q").oninput = e => { state.q = e.target.value; save(); draw(); };
