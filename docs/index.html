@@ -38,6 +38,11 @@ nav a.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
 .controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
 input,select{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink)}
 input[type=search]{flex:1;min-width:160px}
+.mc{display:flex;align-items:center;gap:6px;flex-wrap:wrap;width:100%}
+.mc label{font-size:13px;color:var(--muted)}
+.mc input{width:118px}
+.mc button{font:inherit;font-size:13px;padding:7px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink);cursor:pointer}
+.count{font-size:13px;color:var(--muted);margin:0 2px 8px}
 .card{background:var(--panel);border:1px solid var(--line);border-radius:12px}
 .list .row{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line);color:inherit}
 .list .row:last-child{border-bottom:0}
@@ -101,6 +106,23 @@ const tag = p => p == null ? "" : p >= D.big_pct ? '<span class="tag big">BIG</s
 let state = {q: "", sector: "", sort: "pct_rev", days: 7};
 try { Object.assign(state, JSON.parse(localStorage.getItem("owt") || "{}")); } catch (e) {}
 const save = () => { try { localStorage.setItem("owt", JSON.stringify(state)); } catch (e) {} };
+const mcHTML = () => `<div class="mc"><label>M.Cap ₹Cr</label>
+  <input type="number" id="mcmin" inputmode="numeric" min="0" placeholder="Min" value="${state.mcMin ?? ""}">
+  <label>to</label>
+  <input type="number" id="mcmax" inputmode="numeric" min="0" placeholder="Max" value="${state.mcMax ?? ""}">
+  <button id="mcclr" type="button">Clear</button></div>`;
+const mcOK = c => {
+  const lo = state.mcMin, hi = state.mcMax;
+  if (lo == null && hi == null) return true;
+  if (c.mcap_cr == null) return false;
+  return (lo == null || c.mcap_cr >= lo) && (hi == null || c.mcap_cr <= hi);
+};
+function bindMc(draw) {
+  const num = v => v === "" ? null : Math.max(0, +v);
+  $("#mcmin").oninput = e => { state.mcMin = num(e.target.value); save(); draw(); };
+  $("#mcmax").oninput = e => { state.mcMax = num(e.target.value); save(); draw(); };
+  $("#mcclr").onclick = () => { state.mcMin = state.mcMax = null; $("#mcmin").value = $("#mcmax").value = ""; save(); draw(); };
+}
 
 fetch("data.json?v=" + Date.now()).then(r => r.json()).then(d => {
   D = d; d.companies.forEach(c => byKey[c.key] = c);
@@ -133,12 +155,15 @@ function ranking() {
         <option value="value_cr">Total order value</option>
         <option value="n_recent">Orders in last ${D.recent_days} days</option>
       </select>
+      ${mcHTML()}
     </div>
+    <div class="count" id="cnt"></div>
     <div class="card list" id="list"></div>`;
   $("#sort").value = state.sort;
   const draw = () => {
     const q = state.q.toLowerCase();
-    let rows = D.companies.filter(c => (!q || (c.name + " " + (c.nse || "") + " " + (c.bse || "")).toLowerCase().includes(q)) && (!state.sector || c.sector === state.sector));
+    let rows = D.companies.filter(c => (!q || (c.name + " " + (c.nse || "") + " " + (c.bse || "")).toLowerCase().includes(q)) && (!state.sector || c.sector === state.sector) && mcOK(c));
+    $("#cnt").textContent = `${rows.length} of ${D.companies.length} companies`;
     const k = state.sort;
     rows.sort((a, b) => (a[k] == null) - (b[k] == null) || (b[k] || 0) - (a[k] || 0));
     const max = Math.max(1, ...rows.map(r => r.pct_rev || 0).filter(v => v < 1000));
@@ -146,7 +171,7 @@ function ranking() {
       <a class="row" href="#c/${encodeURIComponent(c.key)}">
         <div class="rank num">${i + 1}</div>
         <div><div class="name">${esc(c.name)}</div>
-          <div class="meta">${c.n_orders} order${c.n_orders > 1 ? "s" : ""} · ${cr(c.value_cr)} · Rev ${cr(c.rev_ttm_cr)}${c.sector ? " · " + esc(c.sector) : ""}</div></div>
+          <div class="meta">${c.n_orders} order${c.n_orders > 1 ? "s" : ""} · ${cr(c.value_cr)} · Rev ${cr(c.rev_ttm_cr)} · MCap ${cr(c.mcap_cr)}${c.sector ? " · " + esc(c.sector) : ""}</div></div>
         <div class="pct"><b class="num">${pc(c[k === "value_cr" || k === "n_recent" ? "pct_rev" : k])}</b>
           <div class="barw"><i style="width:${Math.min(100, (c.pct_rev || 0) / max * 100)}%"></i></div></div>
       </a>`).join("") : '<div class="empty">No companies match.</div>';
@@ -154,6 +179,7 @@ function ranking() {
   $("#q").oninput = e => { state.q = e.target.value; save(); draw(); };
   $("#sec").onchange = e => { state.sector = e.target.value; save(); draw(); };
   $("#sort").onchange = e => { state.sort = e.target.value; save(); draw(); };
+  bindMc(draw);
   draw();
 }
 
@@ -175,6 +201,7 @@ function newOrders() {
     <div class="controls">
       <select id="days"><option value="1">Last 1 day</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option></select>
       <select id="min"><option value="0">All orders</option><option value="10">≥ 10% of revenue</option><option value="25">≥ 25% of revenue</option></select>
+      ${mcHTML()}
     </div>
     <div class="card" id="olist"></div>`;
   $("#days").value = String(state.days);
@@ -183,11 +210,12 @@ function newOrders() {
     const end = new Date(D.updated.slice(0, 10) + "T00:00:00");
     const from = new Date(end - (state.days - 1) * 864e5).toISOString().slice(0, 10);
     const min = +state.min || 0;
-    const rows = D.orders.filter(o => o.date >= from && (!min || (o.pct_rev || 0) >= min));
+    const rows = D.orders.filter(o => o.date >= from && (!min || (o.pct_rev || 0) >= min) && mcOK(byKey[o.key] || {}));
     $("#olist").innerHTML = rows.length ? rows.map(o => orderHTML(o, true)).join("") : '<div class="empty">No orders in this window.</div>';
   };
   $("#days").onchange = e => { state.days = +e.target.value; save(); draw(); };
   $("#min").onchange = e => { state.min = +e.target.value; save(); draw(); };
+  bindMc(draw);
   draw();
   window.scrollTo(0, 0);
 }
