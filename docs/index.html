@@ -59,6 +59,7 @@ input[type=search]{flex:1;min-width:160px}
 .tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;letter-spacing:.02em;vertical-align:1px}
 .tag.big{background:var(--big-soft);color:var(--big)}
 .tag.mid{background:var(--mid-soft);color:var(--mid)}
+.tag.chk{background:var(--line);color:var(--ink)}
 .tag.new{background:var(--accent-soft);color:var(--accent)}
 .order{padding:13px 14px;border-bottom:1px solid var(--line)}
 .order:last-child{border-bottom:0}
@@ -189,7 +190,7 @@ function ranking() {
       <a class="row" href="#c/${encodeURIComponent(c.key)}">
         <div class="rank num">${i + 1}</div>
         <div><div class="name">${esc(c.name)}</div>
-          <div class="meta">${c.n_orders} order${c.n_orders > 1 ? "s" : ""} · ${cr(c.value_cr)} · Rev ${cr(c.rev_ttm_cr)} · MCap ${cr(c.mcap_cr)}${c.sector ? " · " + esc(c.sector) : ""}</div></div>
+          <div class="meta">${c.n_orders} order${c.n_orders > 1 ? "s" : ""} · ${cr(c.value_cr)} · Rev ${cr(c.rev_ttm_cr)} · MCap ${cr(c.mcap_cr)}${c.sector ? " · " + esc(c.sector) : ""}${c.n_check ? ` · <span class="tag chk">⚠ ${c.n_check} to check</span>` : ""}</div></div>
         <div class="pct"><b class="num">${pc(c[k === "value_cr" || k === "n_recent" ? "pct_rev" : k])}</b>
           <div class="barw"><i style="width:${Math.min(100, (c.pct_rev || 0) / max * 100)}%"></i></div></div>
         <div>${spark(c)}</div>
@@ -206,7 +207,7 @@ function orderHTML(o, showCo) {
   const c = byKey[o.key] || {};
   return `<div class="order">
     <div class="otop">
-      <div>${showCo ? `<a class="name" href="#c/${encodeURIComponent(o.key)}">${esc(c.name)}</a> ` : ""}${o.seen === D.lastSeen ? '<span class="tag new">NEW</span> ' : ""}${tag(o.pct_rev)}
+      <div>${showCo ? `<a class="name" href="#c/${encodeURIComponent(o.key)}">${esc(c.name)}</a> ` : ""}${o.seen === D.lastSeen ? '<span class="tag new">NEW</span> ' : ""}${o.chk ? '<span class="tag chk" title="Very large compared with the company — the value may be misread. Check the filing.">CHECK</span> ' : tag(o.pct_rev)}
         <div class="meta">${fdate(o.date)} · ${o.ex}${o.pct_rev != null ? " · " + pc(o.pct_rev) + " of revenue" : ""}</div></div>
       <div class="oval num">${cr(o.value_cr)}</div>
     </div>
