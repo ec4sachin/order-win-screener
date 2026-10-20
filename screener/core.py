@@ -39,12 +39,23 @@ EXCLUDE_CTX = re.compile(
     r"total orders|so far|till date|ytd|year to date|paid.?up|share capital|bank guarantee|"
     r"performance guarantee|\bEMD\b|earnest|assets|\bAUM\b|under management|deposits|balance sheet|"
     r"loan book|valuation|consolidated|annual|12 months|fiscal|FY\s?\d|spend|budget|market size|"
+    r"portfolio|loans?\b|lending|advances|disburs|credit book|book size|gross npa|npa|asset base|"
+    r"transactions|transaction volume|payments? processed|processing|volumes?|customer base|footprint|"
+    r"wallet|premium|insured|capital of|raised|funding|ipo|"
     r"industry|economy|sales of|company of|enterprise of)", re.I)
 # Words right AFTER an amount that mean it describes a size, not an order ("a $14 billion company")
 AFTER_EXCLUDE = re.compile(
     r"^\W{0,3}(?:(?!(?:for|from|to|by|with|towards|under|on|of|in)\b)\w+\W+){0,2}?(company|companies|enterprise|conglomerate|group|bank|lender|insurer|"
     r"organi[sz]ation|firm|retailer|economy|industry|market|in assets|of assets|assets|AUM|revenue|"
-    r"turnover|deposits|valuation|business|in sales|annual)", re.I)
+    r"turnover|deposits|valuation|business|in sales|annual|of loans|in loans|loan|portfolio|"
+    r"of transactions|in transactions|aum|customers)", re.I)
+# 2) the amount's own sentence must talk about an order / contract / deal
+ORDER_SENTENCE = re.compile(
+    r"(order|contract|deal|\bTCV\b|total contract|LoA|LoI|letter of|award|purchase|work order|"
+    r"project|tender|bid|supply|EPC|engagement|received|bagged|secured|won|wins|signed|works|"
+    r"services|installation|commissioning|construction|development|manufactur|delivery|implementation)", re.I)
+FROM_CLIENT = re.compile(r"\bfrom\s+(?:M/s\.?\s*)?(?:the\s+)?[A-Z]")   # "Rs 45 Cr from Central Railway"
+SENT_SPLIT = re.compile(r"(?<=[.;!?])\s+(?=[A-Z₹(\"'])|\s+\|\s+")
 # A single order this big vs the company is usually a parsing error → flag it for checking
 SUSPECT_PCT_REV = 300     # > 3× TTM revenue …
 SUSPECT_PCT_MCAP = 50     # … and > 50% of market cap
@@ -74,6 +85,17 @@ def to_crore(num, unit, cur):
     return v
 
 
+def _sentence(t, start, end):
+    """The sentence (or ' | '-separated headline part) that contains t[start:end]."""
+    a = 0
+    for sm in SENT_SPLIT.finditer(t):
+        if sm.end() <= start:
+            a = sm.end()
+        elif sm.start() >= end:
+            return t[a: sm.start()]
+    return t[a:]
+
+
 def extract_order_value(text):
     """Return (value in ₹ crore, snippet) or (nan, None)."""
     if not isinstance(text, str) or not text.strip():
@@ -92,6 +114,9 @@ def extract_order_value(text):
             before = t[max(0, m.start() - 40): m.start()]
             before = re.split(r"[.;]\s+(?=[A-Z])", before)[-1]  # same sentence only
             if EXCLUDE_CTX.search(before) or AFTER_EXCLUDE.search(t[m.end(): m.end() + 30]):
+                continue
+            sent = _sentence(t, m.start(), m.end())
+            if not (ORDER_SENTENCE.search(sent) or FROM_CLIENT.search(sent)):
                 continue
             try:
                 v = to_crore(gd["num"], gd.get("unit"), gd.get("cur"))
@@ -151,7 +176,7 @@ def prepare_new(raw, today):
     df["order_cr"] = [v[0] for v in vals]
     df["value_src"] = [("text: " + v[1]) if v[1] else None for v in vals]
     df["first_seen"] = today.strftime("%Y-%m-%d")
-    df["parse_v"] = 2
+    df["parse_v"] = PARSE_VERSION
     df["text"] = df["text"].str.slice(0, 600)
     return df[ORDER_COLS]
 
@@ -189,6 +214,7 @@ def _f(x, nd=1):
 
 
 N_QUARTERS = 8
+PARSE_VERSION = 3   # bump when the value rules change → stored orders get re-checked
 
 
 def quarter_starts(today, n=N_QUARTERS):

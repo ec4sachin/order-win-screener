@@ -228,7 +228,7 @@ def load_orders():
     return pd.DataFrame(columns=core.ORDER_COLS + ["pdf_tried"])
 
 
-PARSE_VERSION = 2   # bump when the value extractor changes, to re-check stored orders
+PARSE_VERSION = core.PARSE_VERSION
 
 
 def reparse(df):
