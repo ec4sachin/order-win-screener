@@ -177,6 +177,33 @@ def _f(x, nd=1):
     return None if np.isnan(x) else round(x, nd)
 
 
+N_QUARTERS = 8
+
+
+def quarter_starts(today, n=N_QUARTERS):
+    """Start dates of the last n calendar quarters, oldest first (the last one is the current, partial quarter)."""
+    y, q = today.year, (today.month - 1) // 3
+    out = []
+    for _ in range(n):
+        out.append(pd.Timestamp(year=y, month=q * 3 + 1, day=1))
+        q -= 1
+        if q < 0:
+            q, y = 3, y - 1
+    return out[::-1]
+
+
+def fy_label(ts):
+    """Indian FY quarter label: Apr–Jun 2026 → 'Q1 FY27'."""
+    fq = (ts.month - 4) % 12 // 3 + 1
+    fy = ts.year + 1 if ts.month >= 4 else ts.year
+    return f"Q{fq} FY{fy % 100:02d}"
+
+
+def o_hist_start(orders):
+    d = pd.to_datetime(orders["date"], errors="coerce").min()
+    return None if pd.isna(d) else d.strftime("%Y-%m-%d")
+
+
 def build_dashboard_data(orders, fundamentals, today):
     """Return the dict written to docs/data.json."""
     cutoff = pd.Timestamp(today - timedelta(days=LOOKBACK_DAYS))
@@ -184,6 +211,14 @@ def build_dashboard_data(orders, fundamentals, today):
     o = orders.copy()
     o["date"] = pd.to_datetime(o["date"])
     o["order_cr"] = pd.to_numeric(o["order_cr"], errors="coerce")
+
+    # Quarterly order value for the last 8 quarters (uses the full history, not just 365 days)
+    qs = quarter_starts(today)
+    hist = o[o["date"] >= qs[0]].copy()
+    hist["qi"] = sum((hist["date"] >= q).astype(int) for q in qs) - 1
+    qval = hist.groupby(["name_key", "qi"])["order_cr"].sum(min_count=1)
+    qcnt = hist.groupby(["name_key", "qi"]).size()
+
     o = o[o["date"] >= cutoff]
     tick = ticker_for(o)
     o["ticker"] = o["name_key"].map(tick)
@@ -219,6 +254,8 @@ def build_dashboard_data(orders, fundamentals, today):
             "value_recent_cr": _f(recent["order_cr"].sum(min_count=1)),
             "biggest_cr": _f(g["order_cr"].max()),
             "last_date": g["date"].max().strftime("%Y-%m-%d"),
+            "q_val": [_f(qval.get((key, i)), 0) for i in range(len(qs))],
+            "q_n": [int(qcnt.get((key, i), 0)) for i in range(len(qs))],
         })
         for _, r in g.iterrows():
             v = r["order_cr"]
@@ -244,6 +281,8 @@ def build_dashboard_data(orders, fundamentals, today):
         "recent_days": RECENT_DAYS,
         "big_pct": BIG_ORDER_PCT,
         "meaningful_pct": MEANINGFUL_PCT,
+        "q_labels": [fy_label(q) for q in qs],
+        "history_from": o_hist_start(orders),
         "companies": companies,
         "orders": order_rows,
     }
