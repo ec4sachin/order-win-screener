@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Order Win Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f5f1; --panel:#ffffff; --ink:#1b1d1f; --muted:#6b6f75; --line:#e4e2dc;
+  --accent:#0f6b4f; --accent-soft:#e3f1ea; --big:#b4371f; --big-soft:#fbe7e2;
+  --mid:#a66b00; --mid-soft:#fbf0d9; --bar:#0f6b4f; --bar-bg:#ecebe6; --link:#0b5a8c;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121416; --panel:#1b1e21; --ink:#eceae4; --muted:#9a9ea4; --line:#2c3034;
+    --accent:#4fc596; --accent-soft:#16352a; --big:#ff8a70; --big-soft:#3d1f18;
+    --mid:#f0b54a; --mid-soft:#3a2e14; --bar:#4fc596; --bar-bg:#262a2e; --link:#7cc0f0;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121416; --panel:#1b1e21; --ink:#eceae4; --muted:#9a9ea4; --line:#2c3034;
+  --accent:#4fc596; --accent-soft:#16352a; --big:#ff8a70; --big-soft:#3d1f18;
+  --mid:#f0b54a; --mid-soft:#3a2e14; --bar:#4fc596; --bar-bg:#262a2e; --link:#7cc0f0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Inter,system-ui,sans-serif}
+a{color:var(--link);text-decoration:none}
+.num{font-family:"JetBrains Mono",ui-monospace,monospace;font-variant-numeric:tabular-nums}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 48px}
+header{padding:20px 0 8px}
+h1{font-size:22px;margin:0;letter-spacing:-.01em}
+.sub{color:var(--muted);font-size:13px;margin-top:2px}
+nav{display:flex;gap:6px;margin:14px 0 12px;position:sticky;top:0;background:var(--bg);padding:8px 0;z-index:5}
+nav a{padding:7px 14px;border-radius:999px;border:1px solid var(--line);color:var(--ink);font-weight:500;font-size:14px}
+nav a.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+input,select{font:inherit;font-size:14px;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--panel);color:var(--ink)}
+input[type=search]{flex:1;min-width:160px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px}
+.list .row{display:grid;grid-template-columns:34px 1fr auto;gap:10px;align-items:center;padding:12px 14px;border-bottom:1px solid var(--line);color:inherit}
+.list .row:last-child{border-bottom:0}
+.list .row:hover{background:var(--bg)}
+.rank{color:var(--muted);font-size:13px;text-align:right}
+.name{font-weight:600}
+.meta{color:var(--muted);font-size:12.5px;margin-top:2px}
+.pct{text-align:right;min-width:92px}
+.pct b{font-size:17px}
+.barw{height:5px;background:var(--bar-bg);border-radius:3px;margin-top:5px;overflow:hidden}
+.barw i{display:block;height:100%;background:var(--bar)}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 7px;border-radius:999px;letter-spacing:.02em;vertical-align:1px}
+.tag.big{background:var(--big-soft);color:var(--big)}
+.tag.mid{background:var(--mid-soft);color:var(--mid)}
+.tag.new{background:var(--accent-soft);color:var(--accent)}
+.order{padding:13px 14px;border-bottom:1px solid var(--line)}
+.order:last-child{border-bottom:0}
+.otop{display:flex;justify-content:space-between;gap:10px;align-items:baseline}
+.oval{font-weight:600;white-space:nowrap}
+.ohead{font-size:13.5px;margin-top:4px;color:var(--ink);word-break:break-word}
+.osrc{font-size:12px;color:var(--muted);margin-top:3px}
+.kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}
+.kpi{padding:12px}
+.kpi .l{font-size:12px;color:var(--muted)}
+.kpi .v{font-size:19px;font-weight:600;margin-top:2px}
+.back{display:inline-block;margin:4px 0 8px;font-size:14px}
+.cname{font-size:21px;font-weight:700;margin:0}
+.links{display:flex;flex-wrap:wrap;gap:12px;font-size:13.5px;margin-top:6px}
+.chart{padding:12px 12px 6px;margin-bottom:12px}
+.chart h3,.sec{font-size:13px;color:var(--muted);font-weight:600;margin:0 0 8px;text-transform:uppercase;letter-spacing:.05em}
+.sec{margin:16px 2px 8px}
+.empty{padding:28px;text-align:center;color:var(--muted)}
+.foot{color:var(--muted);font-size:12px;margin-top:18px}
+@media (max-width:560px){
+  .kpis{grid-template-columns:repeat(2,1fr)}
+  .list .row{grid-template-columns:26px 1fr auto;padding:11px 12px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Order Win Tracker</h1>
+    <div class="sub" id="sub">Loading…</div>
+  </header>
+  <nav>
+    <a href="#rank" id="t-rank">Ranking</a>
+    <a href="#new" id="t-new">New orders</a>
+  </nav>
+  <main id="app"></main>
+  <div class="foot">Order values are read from BSE/NSE filings and can be wrong — check the filing before acting. Not investment advice.</div>
+</div>
+<script>
+let D = null, byKey = {};
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const cr = v => v == null ? "—" : "₹" + (v >= 1000 ? Math.round(v).toLocaleString("en-IN") : v.toLocaleString("en-IN", {maximumFractionDigits: 1})) + " Cr";
+const pc = v => v == null ? "—" : v.toLocaleString("en-IN", {maximumFractionDigits: 1}) + "%";
+const fdate = s => { const d = new Date(s + "T00:00:00"); return d.toLocaleDateString("en-IN", {day: "2-digit", month: "short", year: "2-digit"}); };
+const tag = p => p == null ? "" : p >= D.big_pct ? '<span class="tag big">BIG</span>' : p >= D.meaningful_pct ? '<span class="tag mid">MEANINGFUL</span>' : "";
+let state = {q: "", sector: "", sort: "pct_rev", days: 7};
+try { Object.assign(state, JSON.parse(localStorage.getItem("owt") || "{}")); } catch (e) {}
+const save = () => { try { localStorage.setItem("owt", JSON.stringify(state)); } catch (e) {} };
+
+fetch("data.json?v=" + Date.now()).then(r => r.json()).then(d => {
+  D = d; d.companies.forEach(c => byKey[c.key] = c);
+  d.lastSeen = d.orders.reduce((m, o) => o.seen > m ? o.seen : m, "");
+  $("#sub").textContent = `Updated ${d.updated} IST · ${d.companies.length} companies · ${d.orders.length} orders in last ${d.lookback_days} days`;
+  route();
+}).catch(() => { $("#app").innerHTML = '<div class="card empty">No data yet — run the GitHub workflow once with 365 days.</div>'; $("#sub").textContent = ""; });
+window.addEventListener("hashchange", route);
+
+function route() {
+  if (!D) return;
+  const h = location.hash.slice(1) || "rank";
+  $("#t-rank").classList.toggle("on", h === "rank");
+  $("#t-new").classList.toggle("on", h === "new");
+  if (h.startsWith("c/")) return company(decodeURIComponent(h.slice(2)));
+  if (h === "new") return newOrders();
+  ranking();
+  window.scrollTo(0, 0);
+}
+
+function ranking() {
+  const sectors = [...new Set(D.companies.map(c => c.sector).filter(Boolean))].sort();
+  $("#app").innerHTML = `
+    <div class="controls">
+      <input type="search" id="q" placeholder="Search company" value="${esc(state.q)}">
+      <select id="sec"><option value="">All sectors</option>${sectors.map(s => `<option ${s === state.sector ? "selected" : ""}>${esc(s)}</option>`).join("")}</select>
+      <select id="sort">
+        <option value="pct_rev">Orders % of TTM revenue</option>
+        <option value="pct_mcap">Orders % of market cap</option>
+        <option value="value_cr">Total order value</option>
+        <option value="n_recent">Orders in last ${D.recent_days} days</option>
+      </select>
+    </div>
+    <div class="card list" id="list"></div>`;
+  $("#sort").value = state.sort;
+  const draw = () => {
+    const q = state.q.toLowerCase();
+    let rows = D.companies.filter(c => (!q || (c.name + " " + (c.nse || "") + " " + (c.bse || "")).toLowerCase().includes(q)) && (!state.sector || c.sector === state.sector));
+    const k = state.sort;
+    rows.sort((a, b) => (a[k] == null) - (b[k] == null) || (b[k] || 0) - (a[k] || 0));
+    const max = Math.max(1, ...rows.map(r => r.pct_rev || 0).filter(v => v < 1000));
+    $("#list").innerHTML = rows.length ? rows.map((c, i) => `
+      <a class="row" href="#c/${encodeURIComponent(c.key)}">
+        <div class="rank num">${i + 1}</div>
+        <div><div class="name">${esc(c.name)}</div>
+          <div class="meta">${c.n_orders} order${c.n_orders > 1 ? "s" : ""} · ${cr(c.value_cr)} · Rev ${cr(c.rev_ttm_cr)}${c.sector ? " · " + esc(c.sector) : ""}</div></div>
+        <div class="pct"><b class="num">${pc(c[k === "value_cr" || k === "n_recent" ? "pct_rev" : k])}</b>
+          <div class="barw"><i style="width:${Math.min(100, (c.pct_rev || 0) / max * 100)}%"></i></div></div>
+      </a>`).join("") : '<div class="empty">No companies match.</div>';
+  };
+  $("#q").oninput = e => { state.q = e.target.value; save(); draw(); };
+  $("#sec").onchange = e => { state.sector = e.target.value; save(); draw(); };
+  $("#sort").onchange = e => { state.sort = e.target.value; save(); draw(); };
+  draw();
+}
+
+function orderHTML(o, showCo) {
+  const c = byKey[o.key] || {};
+  return `<div class="order">
+    <div class="otop">
+      <div>${showCo ? `<a class="name" href="#c/${encodeURIComponent(o.key)}">${esc(c.name)}</a> ` : ""}${o.seen === D.lastSeen ? '<span class="tag new">NEW</span> ' : ""}${tag(o.pct_rev)}
+        <div class="meta">${fdate(o.date)} · ${o.ex}${o.pct_rev != null ? " · " + pc(o.pct_rev) + " of revenue" : ""}</div></div>
+      <div class="oval num">${cr(o.value_cr)}</div>
+    </div>
+    <div class="ohead">${esc(o.headline)}</div>
+    ${o.src || o.pdf ? `<div class="osrc">${o.src && o.src.startsWith("pdf:") ? "From filing: …" + esc(o.src.slice(4)) + "…" : ""}${o.pdf ? ` <a href="${esc(o.pdf)}" target="_blank" rel="noopener">Filing ↗</a>` : ""}</div>` : ""}
+  </div>`;
+}
+
+function newOrders() {
+  $("#app").innerHTML = `
+    <div class="controls">
+      <select id="days"><option value="1">Last 1 day</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option></select>
+      <select id="min"><option value="0">All orders</option><option value="10">≥ 10% of revenue</option><option value="25">≥ 25% of revenue</option></select>
+    </div>
+    <div class="card" id="olist"></div>`;
+  $("#days").value = String(state.days);
+  $("#min").value = String(state.min || 0);
+  const draw = () => {
+    const end = new Date(D.updated.slice(0, 10) + "T00:00:00");
+    const from = new Date(end - (state.days - 1) * 864e5).toISOString().slice(0, 10);
+    const min = +state.min || 0;
+    const rows = D.orders.filter(o => o.date >= from && (!min || (o.pct_rev || 0) >= min));
+    $("#olist").innerHTML = rows.length ? rows.map(o => orderHTML(o, true)).join("") : '<div class="empty">No orders in this window.</div>';
+  };
+  $("#days").onchange = e => { state.days = +e.target.value; save(); draw(); };
+  $("#min").onchange = e => { state.min = +e.target.value; save(); draw(); };
+  draw();
+  window.scrollTo(0, 0);
+}
+
+function company(key) {
+  const c = byKey[key];
+  if (!c) { $("#app").innerHTML = '<div class="card empty">Company not found.</div>'; return; }
+  const os = D.orders.filter(o => o.key === key);
+  const links = [];
+  if (c.nse) links.push(`<a href="https://www.nseindia.com/get-quotes/equity?symbol=${encodeURIComponent(c.nse)}" target="_blank" rel="noopener">NSE: ${esc(c.nse)} ↗</a>`);
+  if (c.bse) links.push(`<a href="https://www.bseindia.com/stock-share-price/x/y/${encodeURIComponent(c.bse)}/" target="_blank" rel="noopener">BSE: ${esc(c.bse)} ↗</a>`);
+  links.push(`<a href="https://www.screener.in/company/${encodeURIComponent(c.nse || c.bse)}/" target="_blank" rel="noopener">Screener.in ↗</a>`);
+  $("#app").innerHTML = `
+    <a class="back" href="javascript:history.back()">← Back</a>
+    <h2 class="cname">${esc(c.name)} ${c.rank ? `<span class="tag mid">#${c.rank} by % of revenue</span>` : ""}</h2>
+    <div class="meta">${[c.sector, c.industry].filter(Boolean).map(esc).join(" · ")}</div>
+    <div class="links">${links.join("")}</div>
+    <div class="kpis">
+      <div class="card kpi"><div class="l">Orders ${D.lookback_days}d % of TTM revenue</div><div class="v num">${pc(c.pct_rev)}</div></div>
+      <div class="card kpi"><div class="l">Order value (${D.lookback_days}d)</div><div class="v num">${cr(c.value_cr)}</div></div>
+      <div class="card kpi"><div class="l">TTM revenue</div><div class="v num">${cr(c.rev_ttm_cr)}</div></div>
+      <div class="card kpi"><div class="l">Market cap</div><div class="v num">${cr(c.mcap_cr)}</div></div>
+      <div class="card kpi"><div class="l">Orders (valued)</div><div class="v num">${c.n_orders} (${c.n_valued})</div></div>
+      <div class="card kpi"><div class="l">Last ${D.recent_days} days</div><div class="v num">${c.n_recent} · ${cr(c.value_recent_cr)}</div></div>
+    </div>
+    <div class="card chart"><h3>Order value by month</h3>${monthChart(os)}</div>
+    <div class="sec">All orders (${os.length})</div>
+    <div class="card">${os.map(o => orderHTML(o, false)).join("")}</div>`;
+  window.scrollTo(0, 0);
+}
+
+function monthChart(os) {
+  const end = new Date(D.updated.slice(0, 10) + "T00:00:00"), months = [];
+  for (let i = 11; i >= 0; i--) { const d = new Date(end.getFullYear(), end.getMonth() - i, 1); months.push({k: d.toISOString().slice(0, 7), l: d.toLocaleDateString("en-IN", {month: "short"}), v: 0, n: 0}); }
+  const idx = Object.fromEntries(months.map((m, i) => [m.k, i]));
+  os.forEach(o => { const i = idx[o.date.slice(0, 7)]; if (i != null) { months[i].v += o.value_cr || 0; months[i].n++; } });
+  const W = 600, H = 150, pad = 18, bw = (W - 8) / 12, max = Math.max(1, ...months.map(m => m.v));
+  const bars = months.map((m, i) => {
+    const h = m.v / max * (H - pad - 22), x = 4 + i * bw;
+    const lbl = m.v ? `<text x="${x + bw / 2}" y="${H - pad - h - 5}" text-anchor="middle" font-size="11" fill="var(--muted)">${m.v >= 100 ? Math.round(m.v) : m.v.toFixed(0)}</text>` : (m.n ? `<text x="${x + bw / 2}" y="${H - pad - 5}" text-anchor="middle" font-size="11" fill="var(--muted)">?</text>` : "");
+    return `<rect x="${x + 4}" y="${H - pad - h}" width="${bw - 8}" height="${Math.max(h, m.n ? 2 : 0)}" rx="3" fill="var(--bar)"><title>${m.l}: ${cr(m.v)} (${m.n} orders)</title></rect>${lbl}
+      <text x="${x + bw / 2}" y="${H - 3}" text-anchor="middle" font-size="11" fill="var(--muted)">${m.l}</text>`;
+  }).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="Order value by month, ₹ crore">${bars}</svg>`;
+}
+</script>
+</body>
+</html>
