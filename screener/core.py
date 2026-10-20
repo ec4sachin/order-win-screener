@@ -37,7 +37,17 @@ PAT_B = re.compile(r"(?P<num>" + _NUM + r")\s*" + _UNIT + r"\b", re.I)
 EXCLUDE_CTX = re.compile(
     r"(order\s*book|order\s*backlog|turnover|revenue|net\s*worth|market\s*cap|cumulative|"
     r"total orders|so far|till date|ytd|year to date|paid.?up|share capital|bank guarantee|"
-    r"performance guarantee|\bEMD\b|earnest)", re.I)
+    r"performance guarantee|\bEMD\b|earnest|assets|\bAUM\b|under management|deposits|balance sheet|"
+    r"loan book|valuation|consolidated|annual|12 months|fiscal|FY\s?\d|spend|budget|market size|"
+    r"industry|economy|sales of|company of|enterprise of)", re.I)
+# Words right AFTER an amount that mean it describes a size, not an order ("a $14 billion company")
+AFTER_EXCLUDE = re.compile(
+    r"^\W{0,3}(?:(?!(?:for|from|to|by|with|towards|under|on|of|in)\b)\w+\W+){0,2}?(company|companies|enterprise|conglomerate|group|bank|lender|insurer|"
+    r"organi[sz]ation|firm|retailer|economy|industry|market|in assets|of assets|assets|AUM|revenue|"
+    r"turnover|deposits|valuation|business|in sales|annual)", re.I)
+# A single order this big vs the company is usually a parsing error → flag it for checking
+SUSPECT_PCT_REV = 300     # > 3× TTM revenue …
+SUSPECT_PCT_MCAP = 50     # … and > 50% of market cap
 FAVOUR_CTX = re.compile(
     r"(worth|valued|value|amount|aggregat|consideration|contract price|order of|order for|"
     r"order from|LoA|letter of|work order|purchase order)", re.I)
@@ -81,7 +91,7 @@ def extract_order_value(text):
             seen.update(range(m.start(), m.end()))
             before = t[max(0, m.start() - 40): m.start()]
             before = re.split(r"[.;]\s+(?=[A-Z])", before)[-1]  # same sentence only
-            if EXCLUDE_CTX.search(before):
+            if EXCLUDE_CTX.search(before) or AFTER_EXCLUDE.search(t[m.end(): m.end() + 30]):
                 continue
             try:
                 v = to_crore(gd["num"], gd.get("unit"), gd.get("cur"))
@@ -117,7 +127,7 @@ def row_id(exchange, code, date, headline):
 
 
 ORDER_COLS = ["id", "exchange", "date", "company", "code", "isin", "name_key", "headline",
-              "text", "pdf_url", "order_cr", "value_src", "first_seen"]
+              "text", "pdf_url", "order_cr", "value_src", "first_seen", "parse_v"]
 
 
 def prepare_new(raw, today):
@@ -141,6 +151,7 @@ def prepare_new(raw, today):
     df["order_cr"] = [v[0] for v in vals]
     df["value_src"] = [("text: " + v[1]) if v[1] else None for v in vals]
     df["first_seen"] = today.strftime("%Y-%m-%d")
+    df["parse_v"] = 2
     df["text"] = df["text"].str.slice(0, 600)
     return df[ORDER_COLS]
 
@@ -247,6 +258,8 @@ def build_dashboard_data(orders, fundamentals, today):
             "rev_ttm_cr": _f(rev, 0),
             "n_orders": int(len(g)),
             "n_valued": int(g["order_cr"].notna().sum()),
+            "n_check": int(sum(bool(rev and mcap and v == v and v / rev * 100 > SUSPECT_PCT_REV
+                                    and v / mcap * 100 > SUSPECT_PCT_MCAP) for v in g["order_cr"])),
             "value_cr": _f(total),
             "pct_rev": _f(pct_rev),
             "pct_mcap": _f(total / mcap * 100 if (mcap and total == total) else None),
@@ -265,6 +278,8 @@ def build_dashboard_data(orders, fundamentals, today):
                 "ex": r["exchange"],
                 "value_cr": _f(v, 2),
                 "pct_rev": _f(v / rev * 100 if (rev and v == v) else None),
+                "chk": bool(rev and mcap and v == v and v / rev * 100 > SUSPECT_PCT_REV
+                            and v / mcap * 100 > SUSPECT_PCT_MCAP),
                 "headline": str(r["headline"] or "")[:240],
                 "src": (str(r["value_src"])[:140] if isinstance(r["value_src"], str) else None),
                 "pdf": r["pdf_url"] if isinstance(r["pdf_url"], str) else None,

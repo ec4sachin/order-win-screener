@@ -173,15 +173,19 @@ def fill_from_pdfs(orders, max_pdfs):
 
 
 # ── Fundamentals (cached, refreshed weekly) ──────────────────────────
+FUND_VERSION = 2   # bump to force a full refresh (v2: revenue converted to ₹)
+FX_TO_INR = {"INR": 1.0, "USD": core.USD_INR, "EUR": core.EUR_INR}
+
+
 def refresh_fundamentals(tickers, cache, today, max_calls=600, max_age_days=7):
     import yfinance as yf
     stale = [t for t in tickers
-             if t not in cache or
+             if t not in cache or cache[t].get("v") != FUND_VERSION or
              (today - datetime.fromisoformat(cache[t].get("updated", "2000-01-01"))).days >= max_age_days]
     stale = stale[:max_calls]
     print(f"Fetching fundamentals for {len(stale)} tickers…")
     for i, t in enumerate(stale, 1):
-        rec = {"updated": today.strftime("%Y-%m-%d")}
+        rec = {"updated": today.strftime("%Y-%m-%d"), "v": FUND_VERSION}
         try:
             tk = yf.Ticker(t)
             info = tk.info or {}
@@ -191,7 +195,15 @@ def refresh_fundamentals(tickers, cache, today, max_calls=600, max_age_days=7):
                 if q is not None and "Total Revenue" in q.index:
                     vals = q.loc["Total Revenue"].dropna().iloc[:4]
                     rev = float(vals.sum()) if len(vals) == 4 else None
+            # Some companies (e.g. IT exporters) report financials in USD on Yahoo → convert to ₹
+            fcur = (info.get("financialCurrency") or "INR").upper()
+            fx = FX_TO_INR.get(fcur)
+            if rev and fx is None:
+                rev = None            # unknown currency → leave revenue blank rather than guess
+            elif rev:
+                rev *= fx
             rec.update({
+                "fin_currency": fcur,
                 "name": info.get("longName") or info.get("shortName"),
                 "mcap_cr": (info.get("marketCap") or np.nan) / 1e7,
                 "rev_ttm_cr": (rev or np.nan) / 1e7,
@@ -216,6 +228,33 @@ def load_orders():
     return pd.DataFrame(columns=core.ORDER_COLS + ["pdf_tried"])
 
 
+PARSE_VERSION = 2   # bump when the value extractor changes, to re-check stored orders
+
+
+def reparse(df):
+    """Re-run the current value extractor on stored orders parsed by an older version."""
+    if df.empty:
+        return df
+    if "parse_v" not in df:
+        df["parse_v"] = 1
+    old = df["parse_v"].fillna(1).astype(int) < PARSE_VERSION
+    if not old.any():
+        return df
+    from_pdf = old & df["value_src"].fillna("").str.startswith("pdf:")
+    for idx in df.index[old & ~from_pdf]:
+        v, snip = core.extract_order_value(f"{df.at[idx, 'headline'] or ''} {df.at[idx, 'text'] or ''}")
+        df.at[idx, "order_cr"] = v
+        df.at[idx, "value_src"] = ("text: " + snip) if snip else None
+        if np.isnan(v):
+            df.at[idx, "pdf_tried"] = False      # let the PDF step look again
+    # values found in PDFs: clear and re-read the PDF with the new rules
+    df.loc[from_pdf, ["order_cr", "value_src"]] = [np.nan, None]
+    df.loc[from_pdf, "pdf_tried"] = False
+    df.loc[old, "parse_v"] = PARSE_VERSION
+    print(f"Re-checked {int(old.sum())} stored orders with the updated value rules")
+    return df
+
+
 def main(days, max_pdfs, skip_nse=False):
     now = datetime.now(IST).replace(tzinfo=None)
     start = now - timedelta(days=days)
@@ -226,7 +265,7 @@ def main(days, max_pdfs, skip_nse=False):
         raw.append(fetch_nse(start, now))
     raw = pd.concat([r for r in raw if not r.empty], ignore_index=True) if any(not r.empty for r in raw) else pd.DataFrame()
     new = core.prepare_new(raw, now)
-    existing = load_orders()
+    existing = reparse(load_orders())
     before = len(existing)
     orders = core.merge_orders(existing, new)
     print(f"Orders on file: {before} → {len(orders)} (+{len(orders) - before} new)")
