@@ -10526,5 +10526,15 @@
 "rev_ttm_cr": 4537.0998784,
 "sector": "Consumer Defensive",
 "industry": "Packaged Foods"
+},
+"TBOTEK.NS": {
+"updated": "2026-10-22",
+"v": 2,
+"fin_currency": "INR",
+"name": "TBO Tek Limited",
+"mcap_cr": 16781.1022848,
+"rev_ttm_cr": 3091.9819264,
+"sector": "Consumer Cyclical",
+"industry": "Travel Services"
 }
 }
