@@ -10536,5 +10536,15 @@
 "rev_ttm_cr": 3091.9819264,
 "sector": "Consumer Cyclical",
 "industry": "Travel Services"
+},
+"CMLL.NS": {
+"updated": "2026-10-22",
+"v": 2,
+"fin_currency": "INR",
+"name": "Caliber Mining and Logistics Limited",
+"mcap_cr": 3417.1922432,
+"rev_ttm_cr": 1941.4974464,
+"sector": "Energy",
+"industry": "Thermal Coal"
 }
 }
