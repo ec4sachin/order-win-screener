@@ -10666,5 +10666,25 @@
 "rev_ttm_cr": 28591.6987392,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
+},
+"SMT.NS": {
+"updated": "2026-10-23",
+"v": 2,
+"fin_currency": "INR",
+"name": "Sahajanand Medical Technologies Limited",
+"mcap_cr": null,
+"rev_ttm_cr": 1210.5039872,
+"sector": "Healthcare",
+"industry": "Medical Devices"
+},
+"ZETWERK.NS": {
+"updated": "2026-10-23",
+"v": 2,
+"fin_currency": "INR",
+"name": "Zetwerk Manufacturing Businesses Limited",
+"mcap_cr": null,
+"rev_ttm_cr": 15913.3237248,
+"sector": "Industrials",
+"industry": "Metal Fabrication"
 }
 }
