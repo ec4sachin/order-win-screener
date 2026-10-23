@@ -10546,5 +10546,25 @@
 "rev_ttm_cr": 1941.4974464,
 "sector": "Energy",
 "industry": "Thermal Coal"
+},
+"ICICILIFE.NS": {
+"updated": "2026-10-23",
+"v": 2,
+"fin_currency": "INR",
+"name": null,
+"mcap_cr": null,
+"rev_ttm_cr": null,
+"sector": null,
+"industry": null
+},
+"UGROCAP.NS": {
+"updated": "2026-10-23",
+"v": 2,
+"fin_currency": "INR",
+"name": "UGRO Capital Limited",
+"mcap_cr": 1177.9019776,
+"rev_ttm_cr": 868.6303232,
+"sector": "Financial Services",
+"industry": "Credit Services"
 }
 }
