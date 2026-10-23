@@ -31,6 +31,8 @@ jobs:
           python-version: "3.11"
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Self-test (stops the scan if a known mistake comes back)
+        run: python -m screener.selftest
       - name: Scan BSE + NSE and rebuild dashboard data
         run: python -m screener.run --days "${{ github.event.inputs.days || '4' }}" --max-pdfs "${{ github.event.inputs.max_pdfs || '150' }}"
       - name: Save results
