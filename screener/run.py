@@ -134,11 +134,22 @@ def fetch_nse(start, end):
         "text": text,
         "pdf_url": get("attchmntFile"),
     })
-    keep = desc.str.contains(r"order|contract", case=False, na=False) | text.str.contains(core.ORDER_KW, na=False)
-    return out[keep.values]
+    keep = [core.is_order_win("NSE", h, t) for h, t in zip(out["headline"], out["text"])]
+    return out[keep]
 
 
 # ── PDFs for missing values ──────────────────────────────────────────
+def pdf_bytes_text(content, pages=3):
+    """Text of the first pages, with rupee glyphs repaired (see core.repair_rupee_chars)."""
+    import pdfplumber
+    out = []
+    with pdfplumber.open(io.BytesIO(content)) as pdf:
+        for p in pdf.pages[:pages]:
+            core.repair_rupee_chars(p.chars)
+            out.append(p.extract_text() or "")
+    return " ".join(out)
+
+
 def pdf_text(url, pages=3):
     import pdfplumber
     try:
@@ -146,8 +157,7 @@ def pdf_text(url, pages=3):
         r = requests.get(url, headers=h, timeout=30)
         if r.status_code != 200 or b"%PDF" not in r.content[:1024]:
             return ""
-        with pdfplumber.open(io.BytesIO(r.content)) as pdf:
-            return " ".join((p.extract_text() or "") for p in pdf.pages[:pages])
+        return pdf_bytes_text(r.content, pages)
     except Exception:
         return ""
 
@@ -265,7 +275,15 @@ def main(days, max_pdfs, skip_nse=False):
         raw.append(fetch_nse(start, now))
     raw = pd.concat([r for r in raw if not r.empty], ignore_index=True) if any(not r.empty for r in raw) else pd.DataFrame()
     new = core.prepare_new(raw, now)
-    existing = reparse(load_orders())
+    existing = load_orders()
+    if not existing.empty:   # apply today's order-win rules to everything already saved
+        keep = [core.is_order_win(e, h, t) for e, h, t in
+                zip(existing["exchange"], existing["headline"].fillna(""), existing["text"].fillna(""))]
+        dropped = len(existing) - sum(keep)
+        existing = existing[keep].copy()
+        if dropped:
+            print(f"Removed {dropped} saved rows that are not order wins (tax, penalty, bonds, litigation …)")
+    existing = reparse(existing)
     before = len(existing)
     orders = core.merge_orders(existing, new)
     print(f"Orders on file: {before} → {len(orders)} (+{len(orders) - before} new)")

@@ -1,6 +1,7 @@
 """Pure logic: order filtering, value extraction, de-duplication and the dashboard data build.
 No network calls here, so it can be tested offline."""
 import re
+import html
 import hashlib
 from datetime import datetime, timedelta
 
@@ -48,7 +49,8 @@ AFTER_EXCLUDE = re.compile(
     r"^\W{0,3}(?:(?!(?:for|from|to|by|with|towards|under|on|of|in)\b)\w+\W+){0,2}?(company|companies|enterprise|conglomerate|group|bank|lender|insurer|"
     r"organi[sz]ation|firm|retailer|economy|industry|market|in assets|of assets|assets|AUM|revenue|"
     r"turnover|deposits|valuation|business|in sales|annual|of loans|in loans|loan|portfolio|"
-    r"of transactions|in transactions|aum|customers)", re.I)
+    r"of transactions|in transactions|aum|customers|order\s*book|order\s*backlog|order\s*pipeline|"
+    r"backlog|pipeline|unexecuted|outstanding orders)", re.I)
 # 2) the amount's own sentence must talk about an order / contract / deal
 ORDER_SENTENCE = re.compile(
     r"(order|contract|deal|\bTCV\b|total contract|LoA|LoI|letter of|award|purchase|work order|"
@@ -57,8 +59,14 @@ ORDER_SENTENCE = re.compile(
 FROM_CLIENT = re.compile(r"\bfrom\s+(?:M/s\.?\s*)?(?:the\s+)?[A-Z]")   # "Rs 45 Cr from Central Railway"
 SENT_SPLIT = re.compile(r"(?<=[.;!?])\s+(?=[A-Z₹(\"'])|\s+\|\s+")
 # A single order this big vs the company is usually a parsing error → flag it for checking
-SUSPECT_PCT_REV = 300     # > 3× TTM revenue …
-SUSPECT_PCT_MCAP = 50     # … and > 50% of market cap
+SUSPECT_PCT_REV = 300     # > 3× TTM revenue, or …
+SUSPECT_PCT_MCAP = 25     # … > 25% of market cap
+
+
+def is_suspect(v, rev, mcap):
+    if v != v or v is None:
+        return False
+    return bool((rev and v / rev * 100 > SUSPECT_PCT_REV) or (mcap and v / mcap * 100 > SUSPECT_PCT_MCAP))
 FAVOUR_CTX = re.compile(
     r"(worth|valued|value|amount|aggregat|consideration|contract price|order of|order for|"
     r"order from|LoA|letter of|work order|purchase order)", re.I)
@@ -85,6 +93,52 @@ def to_crore(num, unit, cur):
     return v
 
 
+# ── PDF rupee-symbol repair ──────────────────────────────────────────
+# Many Indian filings draw "₹" with a special rupee font. PDF text readers often turn that glyph
+# into a plain character such as "2" or "`", so "₹22 crores" is read as "222 crores".
+# We look at each character's font: a lone character in a different font family that sits directly
+# in front of a number is the rupee glyph, not part of the number.
+RUPEE_FONT = re.compile(r"rupee|inr|foradian|rupi", re.I)
+
+
+def _font_family(name):
+    name = str(name or "")
+    name = name.split("+", 1)[-1]                                    # drop subset prefix "ABCDEF+"
+    name = re.split(r"[-,]", name, 1)[0]                              # drop "-Bold", ",Italic" …
+    return re.sub(r"(Bold|Italic|Oblique|Regular|Medium|Light|Black|Semibold|MT|PS)+$", "", name, flags=re.I).lower()
+
+
+def repair_rupee_chars(chars):
+    """Fix pdfplumber char dicts in place. Returns how many characters were turned into ₹."""
+    fixed = 0
+    n = len(chars)
+    for i, ch in enumerate(chars):
+        t = ch.get("text", "")
+        if t == "₹" or len(t) != 1:
+            continue
+        # 1) any character drawn in a rupee font is the rupee sign
+        if RUPEE_FONT.search(str(ch.get("fontname", ""))) and not t.isalpha():
+            ch["text"] = "₹"; fixed += 1; continue
+        # next visible character
+        j = i + 1
+        while j < n and chars[j].get("text", "").isspace():
+            j += 1
+        if j >= n or not chars[j].get("text", "").isdigit():
+            continue
+        # 2) a backtick right before a number is the Rupee Foradian glyph
+        if t == "`":
+            ch["text"] = "₹"; fixed += 1; continue
+        # 3) a single digit in a different font family, directly before a number
+        if t.isdigit():
+            fam, nxt = _font_family(ch.get("fontname")), _font_family(chars[j].get("fontname"))
+            prev = chars[i - 1] if i > 0 else None
+            prev_same_run = prev is not None and prev.get("text", "").isalnum() and \
+                _font_family(prev.get("fontname")) == fam
+            if fam != nxt and not prev_same_run and j == i + 1:
+                ch["text"] = "₹"; fixed += 1
+    return fixed
+
+
 def _sentence(t, start, end):
     """The sentence (or ' | '-separated headline part) that contains t[start:end]."""
     a = 0
@@ -100,7 +154,7 @@ def extract_order_value(text):
     """Return (value in ₹ crore, snippet) or (nan, None)."""
     if not isinstance(text, str) or not text.strip():
         return np.nan, None
-    t = re.sub(r"\s+", " ", text)
+    t = re.sub(r"\s+", " ", html.unescape(text))      # "&#8377;" → "₹"
     cands, seen = [], set()
     for pat in (PAT_A, PAT_B):
         for m in pat.finditer(t):
@@ -132,12 +186,38 @@ def extract_order_value(text):
     return round(cands[0][2], 2), cands[0][3].strip()
 
 
+# NSE filing categories. Only these can be order wins; everything else (tax/penalty actions,
+# litigation, bonds, schemes, shareholder notices …) is thrown out, whatever its text says.
+NSE_ORDER_CATS = re.compile(r"^\s*(bagging|awarding|receiving).{0,40}(order|contract)", re.I)
+NSE_MAYBE_CATS = re.compile(r"^\s*(press release|updates?|general updates?|news|outcome of|agreements?|"
+                            r"business update)", re.I)
+# For press releases / updates the text itself must clearly say the company WON an order
+STRONG_WIN = re.compile(
+    r"(receiv\w*|receipt of|bag(s|ged)?|secur\w*|won|wins?|award(ed)? (to|of|with)|been awarded|"
+    r"declared (as )?(the )?L-?1|lowest bidder|letter of (award|acceptance|intent)|\bLoA\b|\bLoI\b|"
+    r"work orders?|purchase orders?|orders? (worth|valued|of rs|of ₹|of inr|aggregat)|"
+    r"contracts? (worth|valued|of rs|of ₹))", re.I)
+REG_NOISE = re.compile(
+    r"(action\(?s\)? (taken|initiated)|orders? passed|\btax\b|penalt|\bfine\b|imposition|demand notice|"
+    r"show.?cause|customs|duty|levy|\bGST\b|assessment|tribunal|appeal|court|NCLT|NCLAT|SEBI|"
+    r"\bbonds?\b|debenture|\bNCDs?\b|\bAT1\b|rights issue|preferential|QIP|allotment|fund rais|"
+    r"credit rating|dividend|buy.?back|amalgamation|merger|demerger|scheme of|pendency|litigation|"
+    r"\bnotes\b|tender offer|medium.?term|\bMTN\b|borrowing|\bloan\b|"
+    r"cancel|terminat|withdraw|revok|revocation|foreclos|short.?clos|annul)", re.I)
+
+
 def is_order_win(exchange, headline, text):
     headline = headline or ""
-    blob = f"{headline} {text or ''}"
+    text = text or ""
+    blob = f"{headline} {text}"
     if exchange == "BSE":   # BSE sub-category is already "Award of Order / Receipt of Order"
-        return not NOISE_KW.search(headline)
-    return bool(ORDER_KW.search(blob)) and not NOISE_KW.search(blob)
+        return not (NOISE_KW.search(headline) or REG_NOISE.search(headline))
+    cat = headline.split(" | ", 1)[0]
+    if NSE_ORDER_CATS.search(cat):
+        return not REG_NOISE.search(blob)
+    if NSE_MAYBE_CATS.search(cat):
+        return bool(STRONG_WIN.search(blob)) and not (NOISE_KW.search(blob) or REG_NOISE.search(blob))
+    return False
 
 
 def name_key(name):
@@ -193,6 +273,19 @@ def merge_orders(existing, new):
     allr["_pref"] = (allr["exchange"] != "NSE").astype(int)
     allr = allr.sort_values(["_pref", "first_seen"])
     allr = allr.drop_duplicates(["name_key", "_day", "_val"], keep="first")
+    # The same order is often announced again later (agreement signed, LoA → contract, press release).
+    # Same company + same value (to ₹0.1 Cr) within 90 days → count it once.
+    allr["_v1"] = pd.to_numeric(allr["order_cr"], errors="coerce").round(1)
+    allr = allr.sort_values("date")
+    dup = pd.Series(False, index=allr.index)
+    for (_, v), g in allr[allr["_v1"] > 0].groupby(["name_key", "_v1"]):
+        last = None
+        for idx, d in g["date"].items():
+            if last is not None and (d - last).days <= 90:
+                dup[idx] = True
+            else:
+                last = d
+    allr = allr[~dup].drop(columns="_v1")
     return allr.drop(columns=["_day", "_val", "_pref"]).sort_values("date", ascending=False).reset_index(drop=True)
 
 
@@ -214,7 +307,7 @@ def _f(x, nd=1):
 
 
 N_QUARTERS = 8
-PARSE_VERSION = 3   # bump when the value rules change → stored orders get re-checked
+PARSE_VERSION = 4   # bump when the value rules change → stored orders get re-checked
 
 
 def quarter_starts(today, n=N_QUARTERS):
@@ -284,8 +377,7 @@ def build_dashboard_data(orders, fundamentals, today):
             "rev_ttm_cr": _f(rev, 0),
             "n_orders": int(len(g)),
             "n_valued": int(g["order_cr"].notna().sum()),
-            "n_check": int(sum(bool(rev and mcap and v == v and v / rev * 100 > SUSPECT_PCT_REV
-                                    and v / mcap * 100 > SUSPECT_PCT_MCAP) for v in g["order_cr"])),
+            "n_check": int(sum(is_suspect(v, rev, mcap) for v in g["order_cr"])),
             "value_cr": _f(total),
             "pct_rev": _f(pct_rev),
             "pct_mcap": _f(total / mcap * 100 if (mcap and total == total) else None),
@@ -304,8 +396,7 @@ def build_dashboard_data(orders, fundamentals, today):
                 "ex": r["exchange"],
                 "value_cr": _f(v, 2),
                 "pct_rev": _f(v / rev * 100 if (rev and v == v) else None),
-                "chk": bool(rev and mcap and v == v and v / rev * 100 > SUSPECT_PCT_REV
-                            and v / mcap * 100 > SUSPECT_PCT_MCAP),
+                "chk": is_suspect(v, rev, mcap),
                 "headline": str(r["headline"] or "")[:240],
                 "src": (str(r["value_src"])[:140] if isinstance(r["value_src"], str) else None),
                 "pdf": r["pdf_url"] if isinstance(r["pdf_url"], str) else None,
