@@ -10706,5 +10706,15 @@
 "rev_ttm_cr": 327.9451904,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
+},
+"AAKASH.NS": {
+"updated": "2026-10-24",
+"v": 2,
+"fin_currency": "INR",
+"name": "Aakash Exploration Services Limited",
+"mcap_cr": 78.8737472,
+"rev_ttm_cr": 116.4992,
+"sector": "Energy",
+"industry": "Oil & Gas Equipment & Services"
 }
 }
