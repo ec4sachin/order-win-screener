@@ -10686,5 +10686,25 @@
 "rev_ttm_cr": 15913.3237248,
 "sector": "Industrials",
 "industry": "Metal Fabrication"
+},
+"SBIFUNDS.NS": {
+"updated": "2026-10-24",
+"v": 2,
+"fin_currency": "INR",
+"name": "SBI Funds Management Limited",
+"mcap_cr": 94386.5921536,
+"rev_ttm_cr": 5037.0408448,
+"sector": "Financial Services",
+"industry": "Asset Management"
+},
+"TONBO.NS": {
+"updated": "2026-10-24",
+"v": 2,
+"fin_currency": "INR",
+"name": "Tonbo Imaging India Limited",
+"mcap_cr": null,
+"rev_ttm_cr": 327.9451904,
+"sector": "Industrials",
+"industry": "Aerospace & Defense"
 }
 }
