@@ -2100,11 +2100,11 @@
 "industry": "Farm & Heavy Construction Machinery"
 },
 "CPPLUS.NS": {
-"updated": "2026-10-20",
+"updated": "2026-10-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Aditya Infotech Limited",
-"mcap_cr": 49173.4040576,
+"mcap_cr": 48660.824064,
 "rev_ttm_cr": 4883.193856,
 "sector": "Industrials",
 "industry": "Building Products & Equipment"
@@ -4300,11 +4300,11 @@
 "industry": "Chemicals"
 },
 "INDOCO.NS": {
-"updated": "2026-10-20",
+"updated": "2026-10-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Indoco Remedies Limited",
-"mcap_cr": 2179.9081984,
+"mcap_cr": 2033.8126848,
 "rev_ttm_cr": 1873.149952,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -10716,5 +10716,35 @@
 "rev_ttm_cr": 116.4992,
 "sector": "Energy",
 "industry": "Oil & Gas Equipment & Services"
+},
+"APLLTD.NS": {
+"updated": "2026-10-27",
+"v": 2,
+"fin_currency": "INR",
+"name": "Alembic Pharmaceuticals Limited",
+"mcap_cr": 15074.42688,
+"rev_ttm_cr": 7783.9499264,
+"sector": "Healthcare",
+"industry": "Drug Manufacturers - Specialty & Generic"
+},
+"KARAMTARA.NS": {
+"updated": "2026-10-27",
+"v": 2,
+"fin_currency": "INR",
+"name": "KARAMTARA ENGINEERING L",
+"mcap_cr": null,
+"rev_ttm_cr": 4975.2911872,
+"sector": "Technology",
+"industry": "Solar"
+},
+"KHANDSE.NS": {
+"updated": "2026-10-27",
+"v": 2,
+"fin_currency": "INR",
+"name": "Khandwala Securities Limited",
+"mcap_cr": 26.3433216,
+"rev_ttm_cr": 8.9142,
+"sector": "Financial Services",
+"industry": "Capital Markets"
 }
 }
