@@ -10766,5 +10766,25 @@
 "rev_ttm_cr": 556.9739776,
 "sector": "Consumer Defensive",
 "industry": "Confectioners"
+},
+"GPIL.NS": {
+"updated": "2026-10-28",
+"v": 2,
+"fin_currency": "INR",
+"name": "Godawari Power & Ispat Limited",
+"mcap_cr": 12578.8332032,
+"rev_ttm_cr": 5807.869952,
+"sector": "Basic Materials",
+"industry": "Steel"
+},
+"KPRMILL.NS": {
+"updated": "2026-10-28",
+"v": 2,
+"fin_currency": "INR",
+"name": "K.P.R. Mill Limited",
+"mcap_cr": 37386.338304,
+"rev_ttm_cr": 6819.6200448,
+"sector": "Consumer Cyclical",
+"industry": "Textile Manufacturing"
 }
 }
