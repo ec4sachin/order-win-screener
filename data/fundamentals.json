@@ -1090,12 +1090,12 @@
 "industry": "Household & Personal Products"
 },
 "BAJAJELEC.NS": {
-"updated": "2026-10-20",
+"updated": "2026-10-29",
 "v": 2,
 "fin_currency": "INR",
 "name": "Bajaj Electricals Limited",
-"mcap_cr": 3420.5794304,
-"rev_ttm_cr": 4505.0658816,
+"mcap_cr": 3275.7225472,
+"rev_ttm_cr": 4522.0257792,
 "sector": "Consumer Cyclical",
 "industry": "Furnishings, Fixtures & Appliances"
 },
@@ -4150,11 +4150,11 @@
 "industry": "Credit Services"
 },
 "IIFLCAPS.NS": {
-"updated": "2026-10-20",
+"updated": "2026-10-29",
 "v": 2,
 "fin_currency": "INR",
 "name": "IIFL Capital Services Limited",
-"mcap_cr": 10889.1037696,
+"mcap_cr": 10966.3657984,
 "rev_ttm_cr": 2325.0796544,
 "sector": "Financial Services",
 "industry": "Capital Markets"
@@ -10806,5 +10806,35 @@
 "rev_ttm_cr": 146885.2994048,
 "sector": "Technology",
 "industry": "Software - Infrastructure"
+},
+"AMBUJACEM.NS": {
+"updated": "2026-10-29",
+"v": 2,
+"fin_currency": "INR",
+"name": "Ambuja Cements Limited",
+"mcap_cr": 88136.4697088,
+"rev_ttm_cr": 39866.679296,
+"sector": "Basic Materials",
+"industry": "Building Materials"
+},
+"CENTENKA.NS": {
+"updated": "2026-10-29",
+"v": 2,
+"fin_currency": "INR",
+"name": "Century Enka Limited",
+"mcap_cr": 1029.7090048,
+"rev_ttm_cr": 2004.04992,
+"sector": "Consumer Cyclical",
+"industry": "Textile Manufacturing"
+},
+"INFY.NS": {
+"updated": "2026-10-29",
+"v": 2,
+"fin_currency": "USD",
+"name": "Infosys Limited",
+"mcap_cr": 464375.6703744,
+"rev_ttm_cr": 179229.5960576,
+"sector": "Technology",
+"industry": "Information Technology Services"
 }
 }
