@@ -10786,5 +10786,25 @@
 "rev_ttm_cr": 6819.6200448,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
+},
+"ARHAM.NS": {
+"updated": "2026-10-29",
+"v": 2,
+"fin_currency": "INR",
+"name": null,
+"mcap_cr": null,
+"rev_ttm_cr": null,
+"sector": null,
+"industry": null
+},
+"JPL.NS": {
+"updated": "2026-10-29",
+"v": 2,
+"fin_currency": "INR",
+"name": "Jio Platforms Limited",
+"mcap_cr": null,
+"rev_ttm_cr": 146885.2994048,
+"sector": "Technology",
+"industry": "Software - Infrastructure"
 }
 }
