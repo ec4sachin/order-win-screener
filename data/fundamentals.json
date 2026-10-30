@@ -10558,27 +10558,27 @@
 "industry": null
 },
 "UGROCAP.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "UGRO Capital Limited",
-"mcap_cr": 1177.9019776,
+"mcap_cr": 1131.598848,
 "rev_ttm_cr": 868.6303232,
 "sector": "Financial Services",
 "industry": "Credit Services"
 },
 "ANUHPHR.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "Anuh Pharma Limited",
-"mcap_cr": 784.2528256,
+"mcap_cr": 799.186176,
 "rev_ttm_cr": 778.9883904,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "CORONA.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "CORONA Remedies Limited",
@@ -10588,27 +10588,27 @@
 "industry": "Drug Manufacturers - General"
 },
 "FUSIONCX.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "Fusion CX Limited",
-"mcap_cr": null,
+"mcap_cr": 4055.0817792,
 "rev_ttm_cr": 1818.1380096,
 "sector": "Industrials",
 "industry": "Specialty Business Services"
 },
 "HDFIRE.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "HD Fire Protect Limited",
-"mcap_cr": 4687.4025984,
+"mcap_cr": 4824.9581568,
 "rev_ttm_cr": 489.281024,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "HTEL.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "HY-TECH ENGINEERS LIMITED",
@@ -10618,71 +10618,71 @@
 "industry": "Specialty Industrial Machinery"
 },
 "INDOTHAI.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "Indo Thai Securities Limited",
-"mcap_cr": 412.4625664,
-"rev_ttm_cr": 107.6349952,
+"mcap_cr": 378.9873664,
+"rev_ttm_cr": 78.6225024,
 "sector": "Financial Services",
 "industry": "Capital Markets"
 },
 "JAICORPLTD.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "Jai Corp Limited",
-"mcap_cr": 1614.119424,
+"mcap_cr": 1560.590336,
 "rev_ttm_cr": 606.6599936,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
 "KSHINTL.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "KSH International Limited",
-"mcap_cr": 5997.0564096,
+"mcap_cr": 6405.623808,
 "rev_ttm_cr": 3712.4939776,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
 "SHREECEM.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "Shree Cement Limited",
-"mcap_cr": 82390.3911936,
-"rev_ttm_cr": 21895.7201408,
+"mcap_cr": 83418.6903552,
+"rev_ttm_cr": 23031.1591936,
 "sector": "Basic Materials",
 "industry": "Building Materials"
 },
 "ZYDUSLIFE.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "Zydus Lifesciences Limited",
-"mcap_cr": 112239.1293952,
+"mcap_cr": 118144.3555328,
 "rev_ttm_cr": 28591.6987392,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "SMT.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sahajanand Medical Technologies Limited",
-"mcap_cr": null,
+"mcap_cr": 4843.9771136,
 "rev_ttm_cr": 1210.5039872,
 "sector": "Healthcare",
 "industry": "Medical Devices"
 },
 "ZETWERK.NS": {
-"updated": "2026-10-23",
+"updated": "2026-10-30",
 "v": 2,
 "fin_currency": "INR",
 "name": "Zetwerk Manufacturing Businesses Limited",
-"mcap_cr": null,
+"mcap_cr": 27780.694016,
 "rev_ttm_cr": 15913.3237248,
 "sector": "Industrials",
 "industry": "Metal Fabrication"
