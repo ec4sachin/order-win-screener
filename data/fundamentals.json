@@ -10836,5 +10836,45 @@
 "rev_ttm_cr": 179229.5960576,
 "sector": "Technology",
 "industry": "Information Technology Services"
+},
+"GODREJIND.NS": {
+"updated": "2026-10-30",
+"v": 2,
+"fin_currency": "INR",
+"name": "Godrej Industries Limited",
+"mcap_cr": 30481.6521216,
+"rev_ttm_cr": 24691.269632,
+"sector": "Industrials",
+"industry": "Conglomerates"
+},
+"NETWORK18.NS": {
+"updated": "2026-10-30",
+"v": 2,
+"fin_currency": "INR",
+"name": "Network18 Media & Investments Limited",
+"mcap_cr": 3668.1580544,
+"rev_ttm_cr": 2169.220096,
+"sector": "Communication Services",
+"industry": "Entertainment"
+},
+"VMART.NS": {
+"updated": "2026-10-30",
+"v": 2,
+"fin_currency": "INR",
+"name": "V-Mart Retail Limited",
+"mcap_cr": 5884.60032,
+"rev_ttm_cr": 3992.9499648,
+"sector": "Consumer Cyclical",
+"industry": "Department Stores"
+},
+"WANBURY.NS": {
+"updated": "2026-10-30",
+"v": 2,
+"fin_currency": "INR",
+"name": "Wanbury Limited",
+"mcap_cr": 661.6092672,
+"rev_ttm_cr": 652.6678016,
+"sector": "Healthcare",
+"industry": "Drug Manufacturers - Specialty & Generic"
 }
 }
