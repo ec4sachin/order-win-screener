@@ -8518,11 +8518,11 @@
 "industry": "Auto Parts"
 },
 "SHAREINDIA.NS": {
-"updated": "2026-10-21",
+"updated": "2026-10-31",
 "v": 2,
 "fin_currency": "INR",
 "name": "Share India Securities Limited",
-"mcap_cr": 4063.371264,
+"mcap_cr": 3850.4542208,
 "rev_ttm_cr": 1419.248128,
 "sector": "Financial Services",
 "industry": "Capital Markets"
@@ -10688,31 +10688,31 @@
 "industry": "Metal Fabrication"
 },
 "SBIFUNDS.NS": {
-"updated": "2026-10-24",
+"updated": "2026-10-31",
 "v": 2,
 "fin_currency": "INR",
 "name": "SBI Funds Management Limited",
-"mcap_cr": 94386.5921536,
-"rev_ttm_cr": 5037.0408448,
+"mcap_cr": 95364.2713088,
+"rev_ttm_cr": 5074.3721984,
 "sector": "Financial Services",
 "industry": "Asset Management"
 },
 "TONBO.NS": {
-"updated": "2026-10-24",
+"updated": "2026-10-31",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tonbo Imaging India Limited",
-"mcap_cr": null,
+"mcap_cr": 7471.8773248,
 "rev_ttm_cr": 327.9451904,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
 },
 "AAKASH.NS": {
-"updated": "2026-10-24",
+"updated": "2026-10-31",
 "v": 2,
 "fin_currency": "INR",
 "name": "Aakash Exploration Services Limited",
-"mcap_cr": 78.8737472,
+"mcap_cr": 79.278752,
 "rev_ttm_cr": 116.4992,
 "sector": "Energy",
 "industry": "Oil & Gas Equipment & Services"
@@ -10874,6 +10874,56 @@
 "name": "Wanbury Limited",
 "mcap_cr": 661.6092672,
 "rev_ttm_cr": 652.6678016,
+"sector": "Healthcare",
+"industry": "Drug Manufacturers - Specialty & Generic"
+},
+"ACEVECTOR.NS": {
+"updated": "2026-10-31",
+"v": 2,
+"fin_currency": "INR",
+"name": "AceVector Limited",
+"mcap_cr": 976.2710528,
+"rev_ttm_cr": 548.3769856,
+"sector": "Consumer Cyclical",
+"industry": "Internet Retail"
+},
+"AERONEU.NS": {
+"updated": "2026-10-31",
+"v": 2,
+"fin_currency": "INR",
+"name": "Aeroflex Neu Limited",
+"mcap_cr": 202.1374592,
+"rev_ttm_cr": 127.7044992,
+"sector": "Consumer Cyclical",
+"industry": "Packaging & Containers"
+},
+"GAYAPROJ.NS": {
+"updated": "2026-10-31",
+"v": 2,
+"fin_currency": "INR",
+"name": "Gayatri Projects Limited",
+"mcap_cr": 880.3108864,
+"rev_ttm_cr": 1156.5863936,
+"sector": "Industrials",
+"industry": "Engineering & Construction"
+},
+"VENUSPIPES.NS": {
+"updated": "2026-10-31",
+"v": 2,
+"fin_currency": "INR",
+"name": "Venus Pipes and Tubes Limited",
+"mcap_cr": 3744.2297856,
+"rev_ttm_cr": 1210.9710336,
+"sector": "Basic Materials",
+"industry": "Steel"
+},
+"WINDLAS.NS": {
+"updated": "2026-10-31",
+"v": 2,
+"fin_currency": "INR",
+"name": "Windlas Biotech Limited",
+"mcap_cr": 1807.9397888,
+"rev_ttm_cr": 942.0980224,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 }
