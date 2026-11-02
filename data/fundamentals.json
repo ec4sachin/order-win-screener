@@ -7048,11 +7048,11 @@
 "industry": "Department Stores"
 },
 "PATINTLOG.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-02",
 "v": 2,
 "fin_currency": "INR",
 "name": "Patel Integrated Logistics Limited",
-"mcap_cr": 81.3875264,
+"mcap_cr": 80.6172992,
 "rev_ttm_cr": 393.1158016,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
@@ -9058,12 +9058,12 @@
 "industry": "Specialty Chemicals"
 },
 "SUKHJITS.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-02",
 "v": 2,
 "fin_currency": "INR",
 "name": "The Sukhjit Starch & Chemicals Limited",
-"mcap_cr": 455.1625728,
-"rev_ttm_cr": 1458.9500416,
+"mcap_cr": 446.0705792,
+"rev_ttm_cr": 1555.8245376,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
@@ -10926,5 +10926,25 @@
 "rev_ttm_cr": 942.0980224,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
+},
+"WOCKPHARMA.NS": {
+"updated": "2026-11-02",
+"v": 2,
+"fin_currency": "INR",
+"name": "Wockhardt Limited",
+"mcap_cr": 30820.43392,
+"rev_ttm_cr": 3652.9999872,
+"sector": "Healthcare",
+"industry": "Drug Manufacturers - Specialty & Generic"
+},
+"WONDERLA.NS": {
+"updated": "2026-11-02",
+"v": 2,
+"fin_currency": "INR",
+"name": "Wonderla Holidays Limited",
+"mcap_cr": 2899.4054144,
+"rev_ttm_cr": 593.1570176,
+"sector": "Consumer Cyclical",
+"industry": "Leisure"
 }
 }
