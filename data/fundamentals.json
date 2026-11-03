@@ -3870,11 +3870,11 @@
 "industry": "Engineering & Construction"
 },
 "HIKAL.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-03",
 "v": 2,
 "fin_currency": "INR",
 "name": "Hikal Limited",
-"mcap_cr": 2678.7088384,
+"mcap_cr": 2645.1709952,
 "rev_ttm_cr": 1735.000064,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -4440,11 +4440,11 @@
 "industry": "Engineering & Construction"
 },
 "INVENTURE.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-03",
 "v": 2,
 "fin_currency": "INR",
 "name": "Inventure Growth & Securities Limited",
-"mcap_cr": 82.9500032,
+"mcap_cr": 85.0500032,
 "rev_ttm_cr": 40.2284,
 "sector": "Financial Services",
 "industry": "Capital Markets"
@@ -4958,12 +4958,12 @@
 "industry": "Real Estate - Development"
 },
 "KAMDHENU.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-03",
 "v": 2,
 "fin_currency": "INR",
 "name": "Kamdhenu Limited",
-"mcap_cr": 1051.4236416,
-"rev_ttm_cr": 780.9714176,
+"mcap_cr": 1062.4169984,
+"rev_ttm_cr": 804.8047104,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
@@ -5428,12 +5428,12 @@
 "industry": "Specialty Industrial Machinery"
 },
 "LCCPROJECT.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-03",
 "v": 2,
 "fin_currency": "INR",
 "name": "LCC PROJECTS LIMITED",
-"mcap_cr": 3894.6295808,
-"rev_ttm_cr": 3461.6590336,
+"mcap_cr": 3954.01216,
+"rev_ttm_cr": 3681.7281024,
 "sector": "Industrials",
 "industry": "Infrastructure Operations"
 },
@@ -10956,5 +10956,95 @@
 "rev_ttm_cr": 1088.03328,
 "sector": "Financial Services",
 "industry": "Asset Management"
+},
+"AVG.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "AVG Logistics Limited",
+"mcap_cr": 308.6271232,
+"rev_ttm_cr": 564.8644096,
+"sector": "Industrials",
+"industry": "Integrated Freight & Logistics"
+},
+"BLSPOLY.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "BLS Polymers Limited",
+"mcap_cr": null,
+"rev_ttm_cr": 349.4283008,
+"sector": "Industrials",
+"industry": "Electrical Equipment & Parts"
+},
+"CDSL.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "Central Depository Services (India) Limited",
+"mcap_cr": 27587.9985152,
+"rev_ttm_cr": 1356.6267392,
+"sector": "Financial Services",
+"industry": "Capital Markets"
+},
+"ELIN.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "Elin Electronics Limited",
+"mcap_cr": 360.4912384,
+"rev_ttm_cr": 1355.0440448,
+"sector": "Industrials",
+"industry": "Electrical Equipment & Parts"
+},
+"GINNIFILA.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "Ginni Filaments Limited",
+"mcap_cr": 330.9518336,
+"rev_ttm_cr": 370.0441088,
+"sector": "Consumer Cyclical",
+"industry": "Textile Manufacturing"
+},
+"HGS.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "Hinduja Global Solutions Limited",
+"mcap_cr": 1582.1548544,
+"rev_ttm_cr": 4301.490176,
+"sector": "Industrials",
+"industry": "Specialty Business Services"
+},
+"HMAAGRO.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "HMA Agro Industries Limited",
+"mcap_cr": 1256.4313088,
+"rev_ttm_cr": 7904.2043904,
+"sector": "Consumer Defensive",
+"industry": "Packaged Foods"
+},
+"SDBL.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "Som Distilleries & Breweries Limited",
+"mcap_cr": 1511.8583808,
+"rev_ttm_cr": 972.2335232,
+"sector": "Consumer Defensive",
+"industry": "Beverages - Brewers"
+},
+"SUMMITSEC.NS": {
+"updated": "2026-11-03",
+"v": 2,
+"fin_currency": "INR",
+"name": "Summit Securities Limited",
+"mcap_cr": 1470.921728,
+"rev_ttm_cr": 157.4275968,
+"sector": "Financial Services",
+"industry": "Capital Markets"
 }
 }
