@@ -1610,11 +1610,11 @@
 "industry": "Consumer Electronics"
 },
 "BRITANNIA.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-04",
 "v": 2,
 "fin_currency": "INR",
 "name": "Britannia Industries Limited",
-"mcap_cr": 113328.5343232,
+"mcap_cr": 119140.6731264,
 "rev_ttm_cr": 19468.460032,
 "sector": "Consumer Defensive",
 "industry": "Packaged Foods"
@@ -8008,12 +8008,12 @@
 "industry": "Information Technology Services"
 },
 "RTNINDIA.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-04",
 "v": 2,
 "fin_currency": "INR",
 "name": "RattanIndia Enterprises Limited",
-"mcap_cr": 3432.8864768,
-"rev_ttm_cr": 7562.3407616,
+"mcap_cr": 3496.40704,
+"rev_ttm_cr": 7479.2296448,
 "sector": "Consumer Cyclical",
 "industry": "Internet Retail"
 },
@@ -11106,5 +11106,15 @@
 "rev_ttm_cr": 0.0379,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
+},
+"EVERESTIND.NS": {
+"updated": "2026-11-04",
+"v": 2,
+"fin_currency": "INR",
+"name": "Everest Industries Limited",
+"mcap_cr": 711.2098304,
+"rev_ttm_cr": 1364.5804544,
+"sector": "Industrials",
+"industry": "Building Products & Equipment"
 }
 }
