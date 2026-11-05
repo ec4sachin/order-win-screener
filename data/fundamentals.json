@@ -2600,12 +2600,12 @@
 "industry": "Utilities - Regulated Electric"
 },
 "DRREDDY.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-05",
 "v": 2,
 "fin_currency": "INR",
 "name": "Dr. Reddy's Laboratories Limited",
-"mcap_cr": 103498.8355584,
-"rev_ttm_cr": 33118.601216,
+"mcap_cr": 113797.7458688,
+"rev_ttm_cr": 32984.301568,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
@@ -9268,7 +9268,7 @@
 "industry": "Auto Parts"
 },
 "TALWALKARS.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-05",
 "v": 2,
 "fin_currency": "INR",
 "name": null,
@@ -11146,5 +11146,15 @@
 "rev_ttm_cr": 11188.7507456,
 "sector": "Healthcare",
 "industry": "Medical Care Facilities"
+},
+"BHARATSE.NS": {
+"updated": "2026-11-05",
+"v": 2,
+"fin_currency": "INR",
+"name": "Bharat Seats Limited",
+"mcap_cr": 1331.3599488,
+"rev_ttm_cr": 2352.3330048,
+"sector": "Consumer Cyclical",
+"industry": "Auto Parts"
 }
 }
