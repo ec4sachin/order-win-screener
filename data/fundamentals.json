@@ -6528,12 +6528,12 @@
 "industry": "Education & Training Services"
 },
 "NIITMTS.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-06",
 "v": 2,
 "fin_currency": "INR",
 "name": "NIIT Learning Systems Limited",
-"mcap_cr": 2715.2871424,
-"rev_ttm_cr": 2065.7108992,
+"mcap_cr": 2336.8628224,
+"rev_ttm_cr": 2118.571008,
 "sector": "Consumer Defensive",
 "industry": "Education & Training Services"
 },
@@ -11186,5 +11186,45 @@
 "rev_ttm_cr": 302.3673088,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
+},
+"BAIDFIN.NS": {
+"updated": "2026-11-06",
+"v": 2,
+"fin_currency": "INR",
+"name": "Baid Finserv Limited",
+"mcap_cr": 163.064768,
+"rev_ttm_cr": 53.4936,
+"sector": "Financial Services",
+"industry": "Credit Services"
+},
+"JAYBARMARU.NS": {
+"updated": "2026-11-06",
+"v": 2,
+"fin_currency": "INR",
+"name": "Jay Bharat Maruti Limited",
+"mcap_cr": 1321.299456,
+"rev_ttm_cr": 2620.9523712,
+"sector": "Consumer Cyclical",
+"industry": "Auto Parts"
+},
+"MARALOVER.NS": {
+"updated": "2026-11-06",
+"v": 2,
+"fin_currency": "INR",
+"name": "Maral Overseas Limited",
+"mcap_cr": 251.040384,
+"rev_ttm_cr": 1070.1852672,
+"sector": "Consumer Cyclical",
+"industry": "Textile Manufacturing"
+},
+"SIRCA.NS": {
+"updated": "2026-11-06",
+"v": 2,
+"fin_currency": "INR",
+"name": "Sirca Paints India Limited",
+"mcap_cr": 2313.181184,
+"rev_ttm_cr": 508.253696,
+"sector": "Basic Materials",
+"industry": "Specialty Chemicals"
 }
 }
