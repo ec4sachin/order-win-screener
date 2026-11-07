@@ -11226,5 +11226,15 @@
 "rev_ttm_cr": 508.253696,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
+},
+"KROSS.NS": {
+"updated": "2026-11-07",
+"v": 2,
+"fin_currency": "INR",
+"name": "Kross Limited",
+"mcap_cr": 1920.8742912,
+"rev_ttm_cr": 822.356992,
+"sector": "Consumer Cyclical",
+"industry": "Auto Parts"
 }
 }
