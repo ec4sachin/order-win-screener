@@ -11236,5 +11236,15 @@
 "rev_ttm_cr": 822.356992,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
+},
+"AAVAS.NS": {
+"updated": "2026-11-08",
+"v": 2,
+"fin_currency": "INR",
+"name": "Aavas Financiers Limited",
+"mcap_cr": 9021.4899712,
+"rev_ttm_cr": 1648.257024,
+"sector": "Financial Services",
+"industry": "Mortgage Finance"
 }
 }
