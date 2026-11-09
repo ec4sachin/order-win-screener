@@ -11246,5 +11246,25 @@
 "rev_ttm_cr": 1648.257024,
 "sector": "Financial Services",
 "industry": "Mortgage Finance"
+},
+"ICICIBANK.NS": {
+"updated": "2026-11-09",
+"v": 2,
+"fin_currency": "INR",
+"name": "ICICI Bank Limited",
+"mcap_cr": 1141037.334528,
+"rev_ttm_cr": 212121.485312,
+"sector": "Financial Services",
+"industry": "Banks - Regional"
+},
+"KRONOX.NS": {
+"updated": "2026-11-09",
+"v": 2,
+"fin_currency": "INR",
+"name": "Kronox Lab Sciences Limited",
+"mcap_cr": 717.9994624,
+"rev_ttm_cr": 105.3190016,
+"sector": "Basic Materials",
+"industry": "Specialty Chemicals"
 }
 }
