@@ -11266,5 +11266,35 @@
 "rev_ttm_cr": 105.3190016,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
+},
+"ARIES.NS": {
+"updated": "2026-11-12",
+"v": 2,
+"fin_currency": "INR",
+"name": "Aries Agro Limited",
+"mcap_cr": 648.4613632,
+"rev_ttm_cr": 766.126592,
+"sector": "Basic Materials",
+"industry": "Agricultural Inputs"
+},
+"ASAHISONG.NS": {
+"updated": "2026-11-12",
+"v": 2,
+"fin_currency": "INR",
+"name": "Asahi Songwon Colors Limited",
+"mcap_cr": 424.2825216,
+"rev_ttm_cr": 574.50368,
+"sector": "Basic Materials",
+"industry": "Specialty Chemicals"
+},
+"WEL.NS": {
+"updated": "2026-11-12",
+"v": 2,
+"fin_currency": "INR",
+"name": "Wonder Electricals Limited",
+"mcap_cr": 1029.7174016,
+"rev_ttm_cr": 733.5663104,
+"sector": "Consumer Cyclical",
+"industry": "Furnishings, Fixtures & Appliances"
 }
 }
