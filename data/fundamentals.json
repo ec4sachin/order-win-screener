@@ -11326,5 +11326,15 @@
 "rev_ttm_cr": 1931.618304,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
+},
+"PASUPTAC.NS": {
+"updated": "2026-11-13",
+"v": 2,
+"fin_currency": "INR",
+"name": "Pasupati Acrylon Limited",
+"mcap_cr": 644.3433472,
+"rev_ttm_cr": 1026.8577792,
+"sector": "Consumer Cyclical",
+"industry": "Textile Manufacturing"
 }
 }
