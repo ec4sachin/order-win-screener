@@ -8168,11 +8168,11 @@
 "industry": "Lodging"
 },
 "SAMMAANCAP.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-14",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sammaan Capital Limited",
-"mcap_cr": 14450.4815616,
+"mcap_cr": 17026.2904832,
 "rev_ttm_cr": -1261.2299776,
 "sector": "Financial Services",
 "industry": "Mortgage Finance"
@@ -11366,5 +11366,35 @@
 "rev_ttm_cr": 26013.8303488,
 "sector": "Communication Services",
 "industry": "Telecom Services"
+},
+"AMANTA.NS": {
+"updated": "2026-11-14",
+"v": 2,
+"fin_currency": "INR",
+"name": "Amanta Healthcare Limited",
+"mcap_cr": 905.5781888,
+"rev_ttm_cr": 303.5846912,
+"sector": "Healthcare",
+"industry": "Drug Manufacturers - Specialty & Generic"
+},
+"SRIT.NS": {
+"updated": "2026-11-14",
+"v": 2,
+"fin_currency": "INR",
+"name": "SRIT India Limited",
+"mcap_cr": 813.0377216,
+"rev_ttm_cr": 386.3699968,
+"sector": "Technology",
+"industry": "Information Technology Services"
+},
+"UMIYA-MRO.NS": {
+"updated": "2026-11-14",
+"v": 2,
+"fin_currency": "INR",
+"name": "MRO-TEK Networks Limited",
+"mcap_cr": 187.6868224,
+"rev_ttm_cr": 70.7476992,
+"sector": "Technology",
+"industry": "Communication Equipment"
 }
 }
