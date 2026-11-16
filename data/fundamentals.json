@@ -7048,12 +7048,12 @@
 "industry": "Department Stores"
 },
 "PATINTLOG.NS": {
-"updated": "2026-11-09",
+"updated": "2026-11-16",
 "v": 2,
 "fin_currency": "INR",
 "name": "Patel Integrated Logistics Limited",
-"mcap_cr": 80.4889216,
-"rev_ttm_cr": 409.0469888,
+"mcap_cr": 79.2693952,
+"rev_ttm_cr": 408.7362048,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
 },
@@ -9058,11 +9058,11 @@
 "industry": "Specialty Chemicals"
 },
 "SUKHJITS.NS": {
-"updated": "2026-11-09",
+"updated": "2026-11-16",
 "v": 2,
 "fin_currency": "INR",
 "name": "The Sukhjit Starch & Chemicals Limited",
-"mcap_cr": 459.6930048,
+"mcap_cr": 487.4063872,
 "rev_ttm_cr": 1555.8245376,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
@@ -10928,22 +10928,22 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "WOCKPHARMA.NS": {
-"updated": "2026-11-09",
+"updated": "2026-11-16",
 "v": 2,
 "fin_currency": "INR",
 "name": "Wockhardt Limited",
-"mcap_cr": 32604.8186368,
+"mcap_cr": 32783.581184,
 "rev_ttm_cr": 3840.0,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "WONDERLA.NS": {
-"updated": "2026-11-09",
+"updated": "2026-11-16",
 "v": 2,
 "fin_currency": "INR",
 "name": "Wonderla Holidays Limited",
-"mcap_cr": 3054.895104,
-"rev_ttm_cr": 593.1570176,
+"mcap_cr": 3264.6475776,
+"rev_ttm_cr": 629.5742976,
 "sector": "Consumer Cyclical",
 "industry": "Leisure"
 },
@@ -11248,22 +11248,22 @@
 "industry": "Mortgage Finance"
 },
 "ICICIBANK.NS": {
-"updated": "2026-11-09",
+"updated": "2026-11-16",
 "v": 2,
 "fin_currency": "INR",
 "name": "ICICI Bank Limited",
-"mcap_cr": 1141037.334528,
+"mcap_cr": 1137159.70048,
 "rev_ttm_cr": 212121.485312,
 "sector": "Financial Services",
 "industry": "Banks - Regional"
 },
 "KRONOX.NS": {
-"updated": "2026-11-09",
+"updated": "2026-11-16",
 "v": 2,
 "fin_currency": "INR",
 "name": "Kronox Lab Sciences Limited",
-"mcap_cr": 717.9994624,
-"rev_ttm_cr": 105.3190016,
+"mcap_cr": 709.7995264,
+"rev_ttm_cr": 106.6209024,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
