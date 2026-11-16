@@ -240,12 +240,12 @@
 "industry": "Utilities - Independent Power Producers"
 },
 "ADANIENT.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-16",
 "v": 2,
 "fin_currency": "INR",
 "name": "Adani Enterprises Limited",
-"mcap_cr": 359751.7979648,
-"rev_ttm_cr": 111431.385088,
+"mcap_cr": 359954.8547072,
+"rev_ttm_cr": 127398.4974848,
 "sector": "Energy",
 "industry": "Thermal Coal"
 },
@@ -10018,12 +10018,12 @@
 "industry": "Beverages - Non-Alcoholic"
 },
 "VEDL.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-16",
 "v": 2,
 "fin_currency": "INR",
 "name": "Vedanta Limited",
-"mcap_cr": 94964.77696,
-"rev_ttm_cr": 84806.0022784,
+"mcap_cr": 98791.4829824,
+"rev_ttm_cr": 94172.9972224,
 "sector": "Basic Materials",
 "industry": "Other Industrial Metals & Mining"
 },
@@ -11396,5 +11396,15 @@
 "rev_ttm_cr": 70.7476992,
 "sector": "Technology",
 "industry": "Communication Equipment"
+},
+"MVELECTRO.NS": {
+"updated": "2026-11-16",
+"v": 2,
+"fin_currency": "INR",
+"name": "MV Electrosystems Limited",
+"mcap_cr": 2279.062528,
+"rev_ttm_cr": 48.752,
+"sector": "Industrials",
+"industry": "Electrical Equipment & Parts"
 }
 }
