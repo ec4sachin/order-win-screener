@@ -900,12 +900,12 @@
 "industry": "Communication Equipment"
 },
 "ASTRAZEN.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-17",
 "v": 2,
 "fin_currency": "INR",
 "name": "AstraZeneca Pharma India Limited",
-"mcap_cr": 15098.7505664,
-"rev_ttm_cr": 2432.0600064,
+"mcap_cr": 15419.9998464,
+"rev_ttm_cr": 2602.070016,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
@@ -11406,5 +11406,35 @@
 "rev_ttm_cr": 48.752,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
+},
+"PGHH.NS": {
+"updated": "2026-11-17",
+"v": 2,
+"fin_currency": "INR",
+"name": "Procter & Gamble Hygiene and Health Care Limited",
+"mcap_cr": 22685.1848192,
+"rev_ttm_cr": 4239.7601792,
+"sector": "Consumer Defensive",
+"industry": "Household & Personal Products"
+},
+"PRUDENT.NS": {
+"updated": "2026-11-17",
+"v": 2,
+"fin_currency": "INR",
+"name": "Prudent Corporate Advisory Services Limited",
+"mcap_cr": 12206.2127104,
+"rev_ttm_cr": 1464.4688896,
+"sector": "Financial Services",
+"industry": "Asset Management"
+},
+"ROTO.NS": {
+"updated": "2026-11-17",
+"v": 2,
+"fin_currency": "INR",
+"name": "Roto Pumps Limited",
+"mcap_cr": 1339.9469056,
+"rev_ttm_cr": 294.3596032,
+"sector": "Industrials",
+"industry": "Specialty Industrial Machinery"
 }
 }
