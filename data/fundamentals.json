@@ -740,12 +740,12 @@
 "industry": "Real Estate - Development"
 },
 "ARMEE.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "ArMee Infotech Limited",
-"mcap_cr": 836.5979648,
-"rev_ttm_cr": 1401.3814784,
+"mcap_cr": 934.8066304,
+"rev_ttm_cr": 1369.8794496,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
@@ -1310,12 +1310,12 @@
 "industry": "Aerospace & Defense"
 },
 "BELLACASA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Bella Casa Fashion & Retail Limited",
-"mcap_cr": 285.7160192,
-"rev_ttm_cr": 446.434304,
+"mcap_cr": 267.6562688,
+"rev_ttm_cr": 459.8049792,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
 },
@@ -1610,11 +1610,11 @@
 "industry": "Consumer Electronics"
 },
 "BRITANNIA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Britannia Industries Limited",
-"mcap_cr": 115375.9051776,
+"mcap_cr": 113208.0922624,
 "rev_ttm_cr": 20225.6203776,
 "sector": "Consumer Defensive",
 "industry": "Packaged Foods"
@@ -6008,11 +6008,11 @@
 "industry": "Conglomerates"
 },
 "MEDICO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Medico Remedies Limited",
-"mcap_cr": 156.6737792,
+"mcap_cr": 154.1012864,
 "rev_ttm_cr": 237.5264,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -6068,32 +6068,32 @@
 "industry": "Resorts & Casinos"
 },
 "MICEL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "MIC Electronics Limited",
-"mcap_cr": 1187.3695744,
-"rev_ttm_cr": 222.6308096,
+"mcap_cr": 1088.7696384,
+"rev_ttm_cr": 276.1413888,
 "sector": "Technology",
 "industry": "Electronic Components"
 },
 "MIDHANI.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Mishra Dhatu Nigam Limited",
-"mcap_cr": 7412.1068544,
-"rev_ttm_cr": 1277.6216576,
+"mcap_cr": 7380.2596352,
+"rev_ttm_cr": 1368.077312,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
 "MIDWESTLTD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Midwest Limited",
-"mcap_cr": 3638.1396992,
-"rev_ttm_cr": 695.1920128,
+"mcap_cr": 3625.8451456,
+"rev_ttm_cr": 725.6470016,
 "sector": "Basic Materials",
 "industry": "Building Materials"
 },
@@ -6108,12 +6108,12 @@
 "industry": "Metal Fabrication"
 },
 "MMP.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "MMP Industries Limited",
-"mcap_cr": 1118.6040832,
-"rev_ttm_cr": 937.806848,
+"mcap_cr": 1117.0798592,
+"rev_ttm_cr": 938.3088128,
 "sector": "Basic Materials",
 "industry": "Aluminum"
 },
@@ -6128,21 +6128,21 @@
 "industry": "Conglomerates"
 },
 "MOBIKWIK.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "One MobiKwik Systems Limited",
-"mcap_cr": 1792.9607168,
-"rev_ttm_cr": 1129.3500416,
+"mcap_cr": 1814.8608,
+"rev_ttm_cr": 1154.8409856,
 "sector": "Technology",
 "industry": "Software - Infrastructure"
 },
 "MODIS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Modi's Navnirman Limited",
-"mcap_cr": 862.3066112,
+"mcap_cr": 896.9831424,
 "rev_ttm_cr": 233.5666944,
 "sector": "Real Estate",
 "industry": "Real Estate - Development"
@@ -6168,31 +6168,31 @@
 "industry": "Other Industrial Metals & Mining"
 },
 "MONEYBOXX.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Moneyboxx Finance Limited",
-"mcap_cr": 288.840576,
-"rev_ttm_cr": 115.7147008,
+"mcap_cr": 295.1940864,
+"rev_ttm_cr": 117.8194944,
 "sector": "Financial Services",
 "industry": "Credit Services"
 },
 "MONTECARLO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Monte Carlo Fashions Limited",
-"mcap_cr": 1050.7010048,
-"rev_ttm_cr": 1300.0500224,
+"mcap_cr": 1040.6459392,
+"rev_ttm_cr": 1303.2599552,
 "sector": "Consumer Cyclical",
 "industry": "Apparel Manufacturing"
 },
 "MOREPENLAB.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Morepen Laboratories Limited",
-"mcap_cr": 5432.9614336,
+"mcap_cr": 4952.4056064,
 "rev_ttm_cr": 2285.5069696,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -6208,11 +6208,11 @@
 "industry": "Semiconductor Equipment & Materials"
 },
 "MOTHERSON.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Samvardhana Motherson International Limited",
-"mcap_cr": 172120.7226368,
+"mcap_cr": 174757.117952,
 "rev_ttm_cr": 138487.0313984,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
@@ -6228,52 +6228,52 @@
 "industry": "Capital Markets"
 },
 "MPHASIS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Mphasis Limited",
-"mcap_cr": 46896.2705408,
+"mcap_cr": 46705.246208,
 "rev_ttm_cr": 17210.2303744,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
 "MRPL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Mangalore Refinery and Petrochemicals Limited",
-"mcap_cr": 30896.5638144,
+"mcap_cr": 30537.2823552,
 "rev_ttm_cr": 119640.817664,
 "sector": "Energy",
 "industry": "Oil & Gas Refining & Marketing"
 },
 "MSTCLTD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "MSTC Limited",
-"mcap_cr": 4248.991744,
+"mcap_cr": 5048.7361536,
 "rev_ttm_cr": 386.4702976,
 "sector": "Industrials",
 "industry": "Conglomerates"
 },
 "MTARTECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "MTAR Technologies Limited",
-"mcap_cr": 16968.5286912,
+"mcap_cr": 17562.189824,
 "rev_ttm_cr": 1351.5150336,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "MUKKA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Mukka Proteins Limited",
-"mcap_cr": 834.3000064,
-"rev_ttm_cr": 1768.3359744,
+"mcap_cr": 779.0999552,
+"rev_ttm_cr": 2032.6240256,
 "sector": "Consumer Defensive",
 "industry": "Packaged Foods"
 },
@@ -6338,52 +6338,52 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "NATIONALUM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "National Aluminium Company Limited",
-"mcap_cr": 60425.1881472,
+"mcap_cr": 58937.5143936,
 "rev_ttm_cr": 20465.590272,
 "sector": "Basic Materials",
 "industry": "Aluminum"
 },
 "NAUKRI.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Info Edge (India) Limited",
-"mcap_cr": 77773.7863168,
+"mcap_cr": 76140.8126976,
 "rev_ttm_cr": 3473.0430464,
 "sector": "Communication Services",
 "industry": "Internet Content & Information"
 },
 "NAVKARCORP.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Navkar Corporation Limited",
-"mcap_cr": 1266.6189824,
+"mcap_cr": 1227.0323712,
 "rev_ttm_cr": 808.2778112,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
 },
 "NBCC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "NBCC (India) Limited",
-"mcap_cr": 21708.0004608,
+"mcap_cr": 21197.70112,
 "rev_ttm_cr": 13183.0964224,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "NCC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "NCC Limited",
-"mcap_cr": 8220.3951104,
-"rev_ttm_cr": 21455.839232,
+"mcap_cr": 8418.7947008,
+"rev_ttm_cr": 22927.499264,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
@@ -6398,11 +6398,11 @@
 "industry": "Building Materials"
 },
 "NECCLTD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "North Eastern Carrying Corporation Limited",
-"mcap_cr": 200.1174912,
+"mcap_cr": 238.8870144,
 "rev_ttm_cr": 320.056704,
 "sector": "Industrials",
 "industry": "Trucking"
@@ -6448,11 +6448,11 @@
 "industry": "Packaged Foods"
 },
 "NEUEON.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Neueon Corporation Limited",
-"mcap_cr": 560.3565056,
+"mcap_cr": 550.1784576,
 "rev_ttm_cr": 14.7024992,
 "sector": "Basic Materials",
 "industry": "Steel"
@@ -6468,11 +6468,11 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "NEWGEN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Newgen Software Technologies Limited",
-"mcap_cr": 6178.551808,
+"mcap_cr": 6035.2745472,
 "rev_ttm_cr": 1610.4229888,
 "sector": "Technology",
 "industry": "Software - Infrastructure"
@@ -6508,11 +6508,11 @@
 "industry": "Medical Care Facilities"
 },
 "NIBE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Nibe Limited",
-"mcap_cr": 1905.6330752,
+"mcap_cr": 1787.3545216,
 "rev_ttm_cr": 454.9625856,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
@@ -6538,11 +6538,11 @@
 "industry": "Education & Training Services"
 },
 "NILAINFRA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Nila Infrastructures Limited",
-"mcap_cr": 270.9957888,
+"mcap_cr": 270.6018816,
 "rev_ttm_cr": 348.7858944,
 "sector": "Real Estate",
 "industry": "Real Estate - Development"
@@ -6568,41 +6568,41 @@
 "industry": "Real Estate - Development"
 },
 "NINSYS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "NINtec Systems Limited",
-"mcap_cr": 1730.075648,
+"mcap_cr": 1699.42528,
 "rev_ttm_cr": 183.7068032,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
 "NIRAJ.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Niraj Cement Structurals Limited",
-"mcap_cr": 154.6083328,
+"mcap_cr": 160.6971648,
 "rev_ttm_cr": 552.0260096,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "NITCO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "NITCO Limited",
-"mcap_cr": 2223.427584,
-"rev_ttm_cr": 553.6352768,
+"mcap_cr": 2096.6342656,
+"rev_ttm_cr": 555.8619136,
 "sector": "Industrials",
 "industry": "Building Products & Equipment"
 },
 "NITIRAJ.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Nitiraj Engineers Limited",
-"mcap_cr": 193.1493376,
+"mcap_cr": 191.816704,
 "rev_ttm_cr": 54.7161024,
 "sector": "Technology",
 "industry": "Scientific & Technical Instruments"
@@ -6618,12 +6618,12 @@
 "industry": "Insurance - Life"
 },
 "NMDC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "NMDC Limited",
-"mcap_cr": 62861.4955008,
-"rev_ttm_cr": 32127.2807424,
+"mcap_cr": 60927.2987648,
+"rev_ttm_cr": 32387.39968,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
@@ -6638,12 +6638,12 @@
 "industry": "Credit Services"
 },
 "NPST.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Network People Services Technologies Limited",
-"mcap_cr": 3624.615936,
-"rev_ttm_cr": 217.76,
+"mcap_cr": 3591.4428416,
+"rev_ttm_cr": 238.8199936,
 "sector": "Technology",
 "industry": "Software - Application"
 },
@@ -6658,11 +6658,11 @@
 "industry": "Utilities - Regulated Electric"
 },
 "NTPCGREEN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "NTPC Green Energy Limited",
-"mcap_cr": 69508.79232,
+"mcap_cr": 69930.1101568,
 "rev_ttm_cr": 3610.9398016,
 "sector": "Utilities",
 "industry": "Utilities - Renewable"
@@ -6708,22 +6708,22 @@
 "industry": "Oil & Gas Equipment & Services"
 },
 "OLAELEC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Ola Electric Mobility Limited",
-"mcap_cr": 16263.2859648,
+"mcap_cr": 15918.4830464,
 "rev_ttm_cr": 1880.0001024,
 "sector": "Consumer Cyclical",
 "industry": "Auto Manufacturers"
 },
 "OLECTRA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Olectra Greentech Limited",
-"mcap_cr": 8860.6154752,
-"rev_ttm_cr": 2540.4506112,
+"mcap_cr": 8253.628416,
+"rev_ttm_cr": 2570.8386304,
 "sector": "Industrials",
 "industry": "Farm & Heavy Construction Machinery"
 },
@@ -6748,51 +6748,51 @@
 "industry": "Real Estate - Development"
 },
 "OMINFRAL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Om Infra Limited",
-"mcap_cr": 666.22976,
+"mcap_cr": 622.9893632,
 "rev_ttm_cr": 520.080896,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "OMNI.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Omnitech Engineering Limited",
-"mcap_cr": 7023.611904,
-"rev_ttm_cr": 630.923008,
+"mcap_cr": 6868.4107776,
+"rev_ttm_cr": 625.344,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "OMPOWER.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Om Power Transmission Limited",
-"mcap_cr": 428.8843776,
+"mcap_cr": 435.9046144,
 "rev_ttm_cr": 528.2155008,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "ONEPOINT.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "One Point One Solutions Limited",
-"mcap_cr": 1948.3613184,
-"rev_ttm_cr": 402.691712,
+"mcap_cr": 1994.9012992,
+"rev_ttm_cr": 506.7807744,
 "sector": "Industrials",
 "industry": "Specialty Business Services"
 },
 "ONESOURCE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "OneSource Specialty Pharma Limited",
-"mcap_cr": 18554.2770688,
+"mcap_cr": 18127.6901376,
 "rev_ttm_cr": 1685.6080384,
 "sector": "Healthcare",
 "industry": "Biotechnology"
@@ -6818,11 +6818,11 @@
 "industry": "Telecom Services"
 },
 "ONWARDTEC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Onward Technologies Limited",
-"mcap_cr": 839.9631872,
+"mcap_cr": 756.372224,
 "rev_ttm_cr": 591.33952,
 "sector": "Technology",
 "industry": "Information Technology Services"
@@ -6868,12 +6868,12 @@
 "industry": "Specialty Chemicals"
 },
 "ORIENTTECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Orient Technologies Limited",
-"mcap_cr": 925.2795392,
-"rev_ttm_cr": 858.9053952,
+"mcap_cr": 932.4710912,
+"rev_ttm_cr": 805.8740224,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
@@ -6898,51 +6898,51 @@
 "industry": "Department Stores"
 },
 "OSWALPUMPS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Oswal Pumps Limited",
-"mcap_cr": 2631.4610688,
+"mcap_cr": 2561.0059776,
 "rev_ttm_cr": 2024.0019456,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
 "PACEDIGITK.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Pace Digitek Limited",
-"mcap_cr": 3488.8052736,
+"mcap_cr": 3839.3475072,
 "rev_ttm_cr": 3104.2820096,
 "sector": "Technology",
 "industry": "Communication Equipment"
 },
 "PAISALO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Paisalo Digital Limited",
-"mcap_cr": 7232.8347648,
+"mcap_cr": 7062.6828288,
 "rev_ttm_cr": 582.8564992,
 "sector": "Financial Services",
 "industry": "Credit Services"
 },
 "PANACEABIO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Panacea Biotec Limited",
-"mcap_cr": 2203.9150592,
+"mcap_cr": 2155.3332224,
 "rev_ttm_cr": 672.64,
 "sector": "Healthcare",
 "industry": "Biotechnology"
 },
 "PANACHE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Panache Digilife Limited",
-"mcap_cr": 1142.919168,
+"mcap_cr": 1261.6629248,
 "rev_ttm_cr": 355.1567104,
 "sector": "Technology",
 "industry": "Communication Equipment"
@@ -6958,11 +6958,11 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "PARADEEP.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Paradeep Phosphates Limited",
-"mcap_cr": 14530.9745152,
+"mcap_cr": 14686.7535872,
 "rev_ttm_cr": 23938.9507584,
 "sector": "Basic Materials",
 "industry": "Agricultural Inputs"
@@ -6978,32 +6978,32 @@
 "industry": "Packaged Foods"
 },
 "PARAS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Paras Defence and Space Technologies Limited",
-"mcap_cr": 10124.1864192,
+"mcap_cr": 10287.7782016,
 "rev_ttm_cr": 556.9346048,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
 },
 "PARIN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Parin Enterprises Limited",
-"mcap_cr": 747.185152,
+"mcap_cr": 727.9510528,
 "rev_ttm_cr": 275.6678912,
 "sector": "Consumer Cyclical",
 "industry": "Furnishings, Fixtures & Appliances"
 },
 "PARKHOSPS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Park Medi World Limited",
-"mcap_cr": 11405.5667712,
-"rev_ttm_cr": 1756.2200064,
+"mcap_cr": 10366.7728384,
+"rev_ttm_cr": 1859.4799616,
 "sector": "Healthcare",
 "industry": "Medical Care Facilities"
 },
@@ -7028,22 +7028,22 @@
 "industry": "Packaged Foods"
 },
 "PATELENG.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Patel Engineering Limited",
-"mcap_cr": 2389.5293952,
-"rev_ttm_cr": 5123.67616,
+"mcap_cr": 2394.304512,
+"rev_ttm_cr": 5152.2408448,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "PATELRMART.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Patel Retail Limited",
-"mcap_cr": 823.0892032,
-"rev_ttm_cr": 1175.4100736,
+"mcap_cr": 781.2383232,
+"rev_ttm_cr": 1251.570688,
 "sector": "Consumer Cyclical",
 "industry": "Department Stores"
 },
@@ -7058,11 +7058,11 @@
 "industry": "Integrated Freight & Logistics"
 },
 "PAYTM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "One97 Communications Limited",
-"mcap_cr": 114463.6964864,
+"mcap_cr": 121851.346944,
 "rev_ttm_cr": 9554.0002816,
 "sector": "Technology",
 "industry": "Software - Infrastructure"
@@ -7078,21 +7078,21 @@
 "industry": "Paper & Paper Products"
 },
 "PDSL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "PDS Limited",
-"mcap_cr": 5758.5188864,
+"mcap_cr": 5769.1107328,
 "rev_ttm_cr": 14588.0743936,
 "sector": "Industrials",
 "industry": "Specialty Business Services"
 },
 "PERSISTENT.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Persistent Systems Limited",
-"mcap_cr": 99636.5041664,
+"mcap_cr": 97290.8068864,
 "rev_ttm_cr": 16801.2726272,
 "sector": "Technology",
 "industry": "Information Technology Services"
@@ -7128,12 +7128,12 @@
 "industry": "Drug Manufacturers - General"
 },
 "PICCADIL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Piccadily Agro Industries Limited",
-"mcap_cr": 5811.320832,
-"rev_ttm_cr": 1075.17952,
+"mcap_cr": 5380.5600768,
+"rev_ttm_cr": 1126.4308224,
 "sector": "Consumer Defensive",
 "industry": "Beverages - Wineries & Distilleries"
 },
@@ -7148,12 +7148,12 @@
 "industry": "Specialty Chemicals"
 },
 "PIGL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Power & Instrumental (Gujarat) Limited",
-"mcap_cr": 195.8123264,
-"rev_ttm_cr": 226.3503104,
+"mcap_cr": 192.9121792,
+"rev_ttm_cr": 233.3507072,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
@@ -7208,21 +7208,21 @@
 "industry": "Banks - Regional"
 },
 "PNC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "PNC Media and Entertainment Limited",
-"mcap_cr": 25.9971984,
+"mcap_cr": 26.2865392,
 "rev_ttm_cr": 34.1492,
 "sector": "Communication Services",
 "industry": "Entertainment"
 },
 "PNCINFRA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "PNC Infratech Limited",
-"mcap_cr": 3373.4899712,
+"mcap_cr": 3309.0988032,
 "rev_ttm_cr": 5828.5903872,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
@@ -7268,32 +7268,32 @@
 "industry": "Credit Services"
 },
 "POWERICA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Powerica Limited",
-"mcap_cr": 5951.7345792,
+"mcap_cr": 6259.2561152,
 "rev_ttm_cr": 3191.7899776,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "POWERINDIA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Hitachi Energy India Limited",
-"mcap_cr": 125471.2016896,
-"rev_ttm_cr": 9162.4996864,
+"mcap_cr": 135655.9941632,
+"rev_ttm_cr": 10326.4600064,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
 "POWERMECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Power Mech Projects Limited",
-"mcap_cr": 7608.4609024,
-"rev_ttm_cr": 6391.8399488,
+"mcap_cr": 7609.0925056,
+"rev_ttm_cr": 6757.6598528,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
@@ -7328,21 +7328,21 @@
 "industry": "Specialty Retail"
 },
 "PREMEXPLN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Premier Explosives Limited",
-"mcap_cr": 2776.6065152,
+"mcap_cr": 3009.4917632,
 "rev_ttm_cr": 348.756992,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
 "PREMIERENE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Premier Energies Limited",
-"mcap_cr": 40135.3015296,
+"mcap_cr": 37614.6558976,
 "rev_ttm_cr": 9261.2132864,
 "sector": "Technology",
 "industry": "Solar"
@@ -7358,11 +7358,11 @@
 "industry": "Specialty Chemicals"
 },
 "PRESTIGE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Prestige Estates Projects Limited",
-"mcap_cr": 68809.1561984,
+"mcap_cr": 72858.0227072,
 "rev_ttm_cr": 12681.7001472,
 "sector": "Real Estate",
 "industry": "Real Estate - Diversified"
@@ -7398,22 +7398,22 @@
 "industry": "Specialty Industrial Machinery"
 },
 "PROSTARM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Prostarm Info Systems Limited",
-"mcap_cr": 778.7342336,
-"rev_ttm_cr": 406.9012992,
+"mcap_cr": 767.5480064,
+"rev_ttm_cr": 460.9939968,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
 "PROTEAN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Protean eGov Technologies Limited",
-"mcap_cr": 2732.8157696,
-"rev_ttm_cr": 1037.8699776,
+"mcap_cr": 2740.1560064,
+"rev_ttm_cr": 1058.1499904,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
@@ -7428,11 +7428,11 @@
 "industry": "Real Estate - Diversified"
 },
 "PRSMJOHNSN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Prism Johnson Limited",
-"mcap_cr": 5468.9693696,
+"mcap_cr": 5636.083712,
 "rev_ttm_cr": 7566.7898368,
 "sector": "Basic Materials",
 "industry": "Building Materials"
@@ -7448,42 +7448,42 @@
 "industry": "Engineering & Construction"
 },
 "PTCIL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "PTC Industries Limited",
-"mcap_cr": 39214.0161024,
+"mcap_cr": 37954.1618688,
 "rev_ttm_cr": 697.4279168,
 "sector": "Industrials",
 "industry": "Metal Fabrication"
 },
 "PURVA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Puravankara Limited",
-"mcap_cr": 4774.5343488,
+"mcap_cr": 4767.4200064,
 "rev_ttm_cr": 4457.5698944,
 "sector": "Real Estate",
 "industry": "Real Estate - Development"
 },
 "PVP.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Evervie Health Limited",
-"mcap_cr": 1232.4907008,
+"mcap_cr": 1223.3764864,
 "rev_ttm_cr": 118.136704,
 "sector": "Industrials",
 "industry": "Conglomerates"
 },
 "PVSL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Popular Vehicles and Services Limited",
-"mcap_cr": 684.7842816,
-"rev_ttm_cr": 6959.7749248,
+"mcap_cr": 645.5540736,
+"rev_ttm_cr": 7522.8962816,
 "sector": "Consumer Cyclical",
 "industry": "Auto & Truck Dealerships"
 },
@@ -7498,22 +7498,22 @@
 "industry": "Education & Training Services"
 },
 "QPOWER.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Quality Power Electrical Equipments Limited",
-"mcap_cr": 11107.0322688,
+"mcap_cr": 12184.2802688,
 "rev_ttm_cr": 1069.9910144,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
 "QUADFUTURE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Quadrant Future Tek Limited",
-"mcap_cr": 1717.400064,
-"rev_ttm_cr": 164.8220032,
+"mcap_cr": 1720.999936,
+"rev_ttm_cr": 163.6450048,
 "sector": "Industrials",
 "industry": "Railroads"
 },
@@ -7528,11 +7528,11 @@
 "industry": "Staffing & Employment Services"
 },
 "QUICKHEAL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Quick Heal Technologies Limited",
-"mcap_cr": 827.383552,
+"mcap_cr": 780.5606912,
 "rev_ttm_cr": 230.1900032,
 "sector": "Technology",
 "industry": "Software - Application"
@@ -7548,11 +7548,11 @@
 "industry": "Entertainment"
 },
 "RADIANTCMS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Radiant Cash Management Services Limited",
-"mcap_cr": 365.2611584,
+"mcap_cr": 352.1360896,
 "rev_ttm_cr": 435.137024,
 "sector": "Industrials",
 "industry": "Specialty Business Services"
@@ -7568,11 +7568,11 @@
 "industry": "Broadcasting"
 },
 "RAILTEL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "RailTel Corporation of India Limited",
-"mcap_cr": 7983.6635136,
+"mcap_cr": 7917.871104,
 "rev_ttm_cr": 4621.7199616,
 "sector": "Communication Services",
 "industry": "Telecom Services"
@@ -7598,32 +7598,32 @@
 "industry": "Steel"
 },
 "RAMCOCEM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "The Ramco Cements Limited",
-"mcap_cr": 19866.2815744,
+"mcap_cr": 19453.952,
 "rev_ttm_cr": 9451.8001664,
 "sector": "Basic Materials",
 "industry": "Building Materials"
 },
 "RAMCOSYS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Ramco Systems Limited",
-"mcap_cr": 1991.5198464,
+"mcap_cr": 2038.3725568,
 "rev_ttm_cr": 717.1700224,
 "sector": "Technology",
 "industry": "Software - Application"
 },
 "RAMKY.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Ramky Infrastructure Limited",
-"mcap_cr": 2776.9073664,
-"rev_ttm_cr": 1938.4649728,
+"mcap_cr": 2737.1186176,
+"rev_ttm_cr": 2071.3609216,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
@@ -7658,31 +7658,31 @@
 "industry": "Auto Parts"
 },
 "RATEGAIN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "RateGain Travel Technologies Limited",
-"mcap_cr": 8309.1390464,
-"rev_ttm_cr": 2746.6170368,
+"mcap_cr": 8091.7250048,
+"rev_ttm_cr": 2785.9939328,
 "sector": "Technology",
 "industry": "Software - Application"
 },
 "RATNAMANI.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Ratnamani Metals & Tubes Limited",
-"mcap_cr": 17014.1319168,
-"rev_ttm_cr": 4355.866624,
+"mcap_cr": 16723.951616,
+"rev_ttm_cr": 4511.6891136,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
 "RAYMOND.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Raymond Limited",
-"mcap_cr": 7279.1998464,
+"mcap_cr": 8165.0860032,
 "rev_ttm_cr": 2430.7099648,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
@@ -7718,11 +7718,11 @@
 "industry": "Luxury Goods"
 },
 "RCF.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Rashtriya Chemicals and Fertilizers Limited",
-"mcap_cr": 5681.2847104,
+"mcap_cr": 5904.1660928,
 "rev_ttm_cr": 18695.3007104,
 "sector": "Basic Materials",
 "industry": "Agricultural Inputs"
@@ -7748,11 +7748,11 @@
 "industry": "Information Technology Services"
 },
 "REFEX.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Refex Industries Limited",
-"mcap_cr": 3151.1791616,
+"mcap_cr": 3077.4872064,
 "rev_ttm_cr": 3187.8006784,
 "sector": "Energy",
 "industry": "Thermal Coal"
@@ -7768,11 +7768,11 @@
 "industry": "Packaged Foods"
 },
 "REGENCERAM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Regency Ceramics Limited",
-"mcap_cr": 78.0026816,
+"mcap_cr": 80.9112512,
 "rev_ttm_cr": 49.8732992,
 "sector": "Industrials",
 "industry": "Building Products & Equipment"
@@ -7808,22 +7808,22 @@
 "industry": "Utilities - Independent Power Producers"
 },
 "RELTD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Ravindra Energy Limited",
-"mcap_cr": 2722.680832,
-"rev_ttm_cr": 481.524992,
+"mcap_cr": 2661.1267584,
+"rev_ttm_cr": 588.702976,
 "sector": "Technology",
 "industry": "Solar"
 },
 "REMSONSIND.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Remsons Industries Limited",
-"mcap_cr": 318.8391936,
-"rev_ttm_cr": 488.8032768,
+"mcap_cr": 306.9511168,
+"rev_ttm_cr": 508.6874112,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
 },
@@ -7848,61 +7848,61 @@
 "industry": "Mortgage Finance"
 },
 "REPL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Rudrabhishek Enterprises Limited",
-"mcap_cr": 105.654176,
-"rev_ttm_cr": 73.4916992,
+"mcap_cr": 103.6425728,
+"rev_ttm_cr": 65.3203968,
 "sector": "Industrials",
 "industry": "Consulting Services"
 },
 "RHIM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "RHI Magnesita India Limited",
-"mcap_cr": 7418.5637888,
+"mcap_cr": 7093.3241856,
 "rev_ttm_cr": 4073.596928,
 "sector": "Industrials",
 "industry": "Metal Fabrication"
 },
 "RISHABH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Rishabh Instruments Limited",
-"mcap_cr": 2404.1392128,
+"mcap_cr": 2292.5307904,
 "rev_ttm_cr": 783.0980096,
 "sector": "Technology",
 "industry": "Scientific & Technical Instruments"
 },
 "RITES.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "RITES Limited",
-"mcap_cr": 9458.282496,
+"mcap_cr": 9258.3510016,
 "rev_ttm_cr": 2465.880064,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "RKEC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "RKEC Projects Limited",
-"mcap_cr": 48.7009152,
+"mcap_cr": 46.3258464,
 "rev_ttm_cr": 121.4194944,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "RMC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "RMC Switchgears Limited",
-"mcap_cr": 183.3732224,
+"mcap_cr": 183.447296,
 "rev_ttm_cr": 354.3024128,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
@@ -7918,12 +7918,12 @@
 "industry": "Auto Parts"
 },
 "RNBDENIMS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "R & B Denims Limited",
-"mcap_cr": 254.1733376,
-"rev_ttm_cr": 482.6445824,
+"mcap_cr": 236.1813248,
+"rev_ttm_cr": 519.2601088,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
 },
@@ -7938,12 +7938,12 @@
 "industry": "Lodging"
 },
 "ROSSTECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Rossell Techsys Limited",
-"mcap_cr": 5226.1187584,
-"rev_ttm_cr": 552.364288,
+"mcap_cr": 5886.431232,
+"rev_ttm_cr": 612.88832,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
 },
@@ -7958,22 +7958,22 @@
 "industry": "Utilities - Independent Power Producers"
 },
 "RPPINFRA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "R.P.P. Infra Projects Limited",
-"mcap_cr": 221.7482496,
+"mcap_cr": 203.2030976,
 "rev_ttm_cr": 1495.2399872,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "RPPL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Rajshree Polypack Limited",
-"mcap_cr": 141.286336,
-"rev_ttm_cr": 367.769088,
+"mcap_cr": 139.5787136,
+"rev_ttm_cr": 369.0447872,
 "sector": "Consumer Cyclical",
 "industry": "Packaging & Containers"
 },
@@ -8008,11 +8008,11 @@
 "industry": "Information Technology Services"
 },
 "RTNINDIA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "RattanIndia Enterprises Limited",
-"mcap_cr": 3512.9778176,
+"mcap_cr": 3417.6966656,
 "rev_ttm_cr": 7483.0651392,
 "sector": "Consumer Cyclical",
 "industry": "Internet Retail"
@@ -8028,42 +8028,42 @@
 "industry": "Utilities - Independent Power Producers"
 },
 "RUBYMILLS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "The Ruby Mills Limited",
-"mcap_cr": 1614.4831488,
+"mcap_cr": 1516.1696256,
 "rev_ttm_cr": 380.5051904,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
 },
 "RVNL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Rail Vikas Nigam Limited",
-"mcap_cr": 42054.8575232,
+"mcap_cr": 40762.1435392,
 "rev_ttm_cr": 20824.580096,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "S&SPOWER.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "S&S Power Switchgear Limited",
-"mcap_cr": 368.45696,
+"mcap_cr": 344.2675456,
 "rev_ttm_cr": 275.5926016,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
 "SAATVIKGL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Saatvik Green Energy Limited",
-"mcap_cr": 4618.995712,
-"rev_ttm_cr": 4293.1421184,
+"mcap_cr": 4385.1227136,
+"rev_ttm_cr": 4278.2949376,
 "sector": "Technology",
 "industry": "Solar"
 },
@@ -8078,11 +8078,11 @@
 "industry": "Publishing"
 },
 "SADHNANIQ.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sadhana Nitro Chem Limited",
-"mcap_cr": 703.469056,
+"mcap_cr": 773.2095488,
 "rev_ttm_cr": 88.8398976,
 "sector": "Basic Materials",
 "industry": "Chemicals"
@@ -8118,31 +8118,31 @@
 "industry": "Diagnostics & Research"
 },
 "SAIPARENT.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sai Parenteral's Limited",
-"mcap_cr": 2235.9109632,
+"mcap_cr": 2193.7197056,
 "rev_ttm_cr": 674.0340224,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - General"
 },
 "SAKAR.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sakar Healthcare Limited",
-"mcap_cr": 2257.8776064,
+"mcap_cr": 2278.2908416,
 "rev_ttm_cr": 302.8047872,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "SALASAR.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Salasar Techno Engineering Limited",
-"mcap_cr": 734.1390848,
+"mcap_cr": 1010.3153664,
 "rev_ttm_cr": 1498.1390336,
 "sector": "Basic Materials",
 "industry": "Steel"
@@ -8158,11 +8158,11 @@
 "industry": "Textile Manufacturing"
 },
 "SAMHI.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "SAMHI Hotels Limited",
-"mcap_cr": 3551.52896,
+"mcap_cr": 3647.8107648,
 "rev_ttm_cr": 1327.6900352,
 "sector": "Consumer Cyclical",
 "industry": "Lodging"
@@ -8198,12 +8198,12 @@
 "industry": "Steel"
 },
 "SANGHVIMOV.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sanghvi Movers Limited",
-"mcap_cr": 3164.3527168,
-"rev_ttm_cr": 1176.7614464,
+"mcap_cr": 3262.1836288,
+"rev_ttm_cr": 1243.8245376,
 "sector": "Industrials",
 "industry": "Rental & Leasing Services"
 },
@@ -8218,11 +8218,11 @@
 "industry": "Drug Manufacturers - General"
 },
 "SAPPHIRE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sapphire Foods India Limited",
-"mcap_cr": 6732.464128,
+"mcap_cr": 6710.5845248,
 "rev_ttm_cr": 3385.0390528,
 "sector": "Consumer Cyclical",
 "industry": "Restaurants"
@@ -8268,41 +8268,41 @@
 "industry": "Building Materials"
 },
 "SBC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "SBC Exports Limited",
-"mcap_cr": 3272.8541184,
+"mcap_cr": 3285.2348928,
 "rev_ttm_cr": 531.4607104,
 "sector": "Consumer Cyclical",
 "industry": "Apparel Manufacturing"
 },
 "SBGLP.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Suratwwala Business Group Limited",
-"mcap_cr": 395.5629056,
-"rev_ttm_cr": 169.1622016,
+"mcap_cr": 389.6667392,
+"rev_ttm_cr": 204.3698048,
 "sector": "Real Estate",
 "industry": "Real Estate - Development"
 },
 "SBICARD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "SBI Cards and Payment Services Limited",
-"mcap_cr": 56161.5863808,
+"mcap_cr": 54672.2545664,
 "rev_ttm_cr": 13130.3399424,
 "sector": "Financial Services",
 "industry": "Credit Services"
 },
 "SCHAEFFLER.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Schaeffler India Limited",
-"mcap_cr": 55356.5093888,
+"mcap_cr": 57111.7928448,
 "rev_ttm_cr": 11159.810048,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
@@ -8338,22 +8338,22 @@
 "industry": "Marine Shipping"
 },
 "SCPL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sheetal Cool Products Limited",
-"mcap_cr": 654.6749952,
-"rev_ttm_cr": 386.421504,
+"mcap_cr": 705.2850176,
+"rev_ttm_cr": 395.1440896,
 "sector": "Consumer Defensive",
 "industry": "Packaged Foods"
 },
 "SEAMECLTD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Seamec Limited",
-"mcap_cr": 3894.9695488,
-"rev_ttm_cr": 1152.9723904,
+"mcap_cr": 3988.350976,
+"rev_ttm_cr": 1139.172352,
 "sector": "Industrials",
 "industry": "Marine Shipping"
 },
@@ -8388,32 +8388,32 @@
 "industry": "Auto Parts"
 },
 "SEJALLTD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sejal Glass Limited",
-"mcap_cr": 1020.359168,
+"mcap_cr": 1087.832064,
 "rev_ttm_cr": 471.4070016,
 "sector": "Industrials",
 "industry": "Building Products & Equipment"
 },
 "SEPC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "SEPC Limited",
-"mcap_cr": 1010.527744,
-"rev_ttm_cr": 1126.0223488,
+"mcap_cr": 952.2281472,
+"rev_ttm_cr": 1114.1792768,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "SERVOTECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Servotech Renewable Power System Limited",
-"mcap_cr": 1540.942848,
-"rev_ttm_cr": 811.9363072,
+"mcap_cr": 1491.2567296,
+"rev_ttm_cr": 811.364096,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
@@ -8478,11 +8478,11 @@
 "industry": "Steel"
 },
 "SHAILY.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Shaily Engineering Plastics Limited",
-"mcap_cr": 14212.472832,
+"mcap_cr": 14196.3739136,
 "rev_ttm_cr": 1087.517184,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
@@ -8588,71 +8588,71 @@
 "industry": "Credit Services"
 },
 "SHYAMMETL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Shyam Metalics and Energy Limited",
-"mcap_cr": 36760.3908608,
+"mcap_cr": 36777.0927104,
 "rev_ttm_cr": 21077.1001344,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
 "SICALLOG.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sical Logistics Limited",
-"mcap_cr": 620.3273728,
+"mcap_cr": 606.2054912,
 "rev_ttm_cr": 420.72,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
 },
 "SIEMENS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Siemens Limited",
-"mcap_cr": 130162.0457472,
+"mcap_cr": 126846.5664,
 "rev_ttm_cr": 18226.8002304,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "SIGMAADV.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sigma Advanced Systems Limited",
-"mcap_cr": 17814.3870976,
-"rev_ttm_cr": 868.0353792,
+"mcap_cr": 17430.7295232,
+"rev_ttm_cr": 1264.5014528,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
 },
 "SIGNATURE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Signatureglobal (India) Limited",
-"mcap_cr": 10212.3995136,
-"rev_ttm_cr": 2807.424,
+"mcap_cr": 11755.7248,
+"rev_ttm_cr": 2761.1019264,
 "sector": "Real Estate",
 "industry": "Real Estate - Development"
 },
 "SIGNPOST.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Signpost India Limited",
-"mcap_cr": 1188.7280128,
+"mcap_cr": 1151.2060928,
 "rev_ttm_cr": 591.06688,
 "sector": "Communication Services",
 "industry": "Advertising Agencies"
 },
 "SILVERTUC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Silver Touch Technologies Limited",
-"mcap_cr": 1592.4800512,
+"mcap_cr": 1572.5708288,
 "rev_ttm_cr": 372.253312,
 "sector": "Technology",
 "industry": "Information Technology Services"
@@ -8668,41 +8668,41 @@
 "industry": "Confectioners"
 },
 "SIMPLEXINF.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Simplex Infrastructures Limited",
-"mcap_cr": 2245.1214336,
-"rev_ttm_cr": 1069.1500032,
+"mcap_cr": 2275.177472,
+"rev_ttm_cr": 1168.770048,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "SINTERCOM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sintercom India Limited",
-"mcap_cr": 227.4899456,
-"rev_ttm_cr": 104.9756032,
+"mcap_cr": 192.777344,
+"rev_ttm_cr": 106.0556032,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
 },
 "SKIPPER.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Skipper Limited",
-"mcap_cr": 6309.2355072,
+"mcap_cr": 6013.0705408,
 "rev_ttm_cr": 5730.9810688,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "SMCGLOBAL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "SMC Global Securities Limited",
-"mcap_cr": 2095.0505472,
+"mcap_cr": 2005.9742208,
 "rev_ttm_cr": 1832.3525632,
 "sector": "Financial Services",
 "industry": "Capital Markets"
@@ -8738,51 +8738,51 @@
 "industry": "Integrated Freight & Logistics"
 },
 "SOFTTECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "SoftTech Engineers Limited",
-"mcap_cr": 593.7585152,
-"rev_ttm_cr": 139.1737984,
+"mcap_cr": 586.1453312,
+"rev_ttm_cr": 143.8978944,
 "sector": "Technology",
 "industry": "Software - Application"
 },
 "SOLARA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Solara Active Pharma Sciences Limited",
-"mcap_cr": 3126.8743168,
+"mcap_cr": 3214.9315584,
 "rev_ttm_cr": 1535.229952,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "SOLARINDS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Solar Industries India Limited",
-"mcap_cr": 172148.2870784,
+"mcap_cr": 169795.5446784,
 "rev_ttm_cr": 12788.1895936,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
 "SOLARWORLD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Solarworld Energy Solutions Limited",
-"mcap_cr": 952.0991232,
+"mcap_cr": 900.6155776,
 "rev_ttm_cr": 1476.3400192,
 "sector": "Technology",
 "industry": "Solar"
 },
 "SOLEX.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Solex Energy Limited",
-"mcap_cr": 725.6571904,
+"mcap_cr": 667.1617024,
 "rev_ttm_cr": 1619.2749568,
 "sector": "Technology",
 "industry": "Solar"
@@ -8798,11 +8798,11 @@
 "industry": "Building Products & Equipment"
 },
 "SOMATEX.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Soma Textiles & Industries Limited",
-"mcap_cr": 244.4441856,
+"mcap_cr": 227.6269824,
 "rev_ttm_cr": 107.2216,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
@@ -8818,12 +8818,12 @@
 "industry": "Specialty Industrial Machinery"
 },
 "SOUTHWEST.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "South West Pinnacle Exploration Limited",
-"mcap_cr": 524.3165184,
-"rev_ttm_cr": 264.4876032,
+"mcap_cr": 536.0057344,
+"rev_ttm_cr": 259.773312,
 "sector": "Energy",
 "industry": "Oil & Gas Equipment & Services"
 },
@@ -8858,11 +8858,11 @@
 "industry": "Apparel Manufacturing"
 },
 "SPMLINFRA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "SPML Infra Limited",
-"mcap_cr": 1336.6310912,
+"mcap_cr": 1226.843136,
 "rev_ttm_cr": 996.8292864,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
@@ -8888,21 +8888,21 @@
 "industry": "Chemicals"
 },
 "SRM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "SRM Contractors Limited",
-"mcap_cr": 906.5816064,
+"mcap_cr": 987.7046272,
 "rev_ttm_cr": 1079.4386432,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "SSWL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Steel Strips Wheels Limited",
-"mcap_cr": 8633.0679296,
+"mcap_cr": 8736.0765952,
 "rev_ttm_cr": 6235.1884288,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
@@ -8918,17 +8918,17 @@
 "industry": "Specialty Chemicals"
 },
 "STANLEY.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Stanley Lifestyles Limited",
-"mcap_cr": 776.1092608,
+"mcap_cr": 762.8560896,
 "rev_ttm_cr": 409.9800064,
 "sector": "Consumer Cyclical",
 "industry": "Furnishings, Fixtures & Appliances"
 },
 "STEAMHOUSE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "STEAMHOUSE INDIA LIMITED",
@@ -8948,12 +8948,12 @@
 "industry": "Capital Markets"
 },
 "STEELXIND.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Steel Exchange India Limited",
-"mcap_cr": 1350.7740672,
-"rev_ttm_cr": 1135.636992,
+"mcap_cr": 1441.366016,
+"rev_ttm_cr": 1140.5495296,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
@@ -8968,31 +8968,31 @@
 "industry": "Tools & Accessories"
 },
 "STLNETWORK.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "STL Networks Limited",
-"mcap_cr": 2115.6816896,
+"mcap_cr": 2097.6154624,
 "rev_ttm_cr": 984.4799488,
 "sector": "Communication Services",
 "industry": "Telecom Services"
 },
 "STLTECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sterlite Technologies Limited",
-"mcap_cr": 34500.9553408,
+"mcap_cr": 32986.6018816,
 "rev_ttm_cr": 7136.9998336,
 "sector": "Technology",
 "industry": "Communication Equipment"
 },
 "STYL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Seshaasai Technologies Limited",
-"mcap_cr": 5216.6197248,
+"mcap_cr": 5181.0226176,
 "rev_ttm_cr": 1559.6980224,
 "sector": "Technology",
 "industry": "Software - Infrastructure"
@@ -9018,21 +9018,21 @@
 "industry": "Chemicals"
 },
 "SUBEXLTD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Subex Limited",
-"mcap_cr": 930.4923136,
-"rev_ttm_cr": 292.1100032,
+"mcap_cr": 877.7810944,
+"rev_ttm_cr": 308.7899904,
 "sector": "Technology",
 "industry": "Software - Application"
 },
 "SUBROS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Subros Limited",
-"mcap_cr": 3946.4370176,
+"mcap_cr": 3998.6253824,
 "rev_ttm_cr": 4228.4466176,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
@@ -9108,62 +9108,62 @@
 "industry": "Real Estate - Development"
 },
 "SUPREME.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Supreme Holdings & Hospitality (India) Limited",
-"mcap_cr": 123.7025536,
+"mcap_cr": 110.9365248,
 "rev_ttm_cr": 5.863,
 "sector": "Real Estate",
 "industry": "Real Estate - Development"
 },
 "SUPREMEENG.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Supreme Engineering Limited",
-"mcap_cr": 124.7250432,
+"mcap_cr": 151.7196544,
 "rev_ttm_cr": 20.4442,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
 "SUPREMEIND.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "The Supreme Industries Limited",
-"mcap_cr": 41893.7864192,
+"mcap_cr": 41063.940096,
 "rev_ttm_cr": 12293.5296,
 "sector": "Industrials",
 "industry": "Building Products & Equipment"
 },
 "SUPREMEINF.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Supreme Infrastructure India Limited",
-"mcap_cr": 681.5574528,
+"mcap_cr": 574.839808,
 "rev_ttm_cr": 81.1377984,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "SURANAT&P.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Surana Telecom and Power Limited",
-"mcap_cr": 206.6266752,
-"rev_ttm_cr": 60.1476992,
+"mcap_cr": 203.9114752,
+"rev_ttm_cr": 53.0200992,
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers"
 },
 "SURYAROSNI.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Surya Roshni Limited",
-"mcap_cr": 4401.6861184,
-"rev_ttm_cr": 7982.3798272,
+"mcap_cr": 4684.177408,
+"rev_ttm_cr": 8585.7001472,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
@@ -9188,41 +9188,41 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "SUYOG.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Suyog Telematics Limited",
-"mcap_cr": 600.4438528,
-"rev_ttm_cr": 229.6368128,
+"mcap_cr": 586.9691392,
+"rev_ttm_cr": 227.9302912,
 "sector": "Communication Services",
 "industry": "Telecom Services"
 },
 "SUZLON.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Suzlon Energy Limited",
-"mcap_cr": 53488.1107968,
+"mcap_cr": 51123.6898816,
 "rev_ttm_cr": 18384.65024,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "SWANDEF.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Swan Defence and Heavy Industries Limited",
-"mcap_cr": 15028.1109504,
+"mcap_cr": 14895.3513984,
 "rev_ttm_cr": 341.6076032,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
 },
 "SWASTIKAIN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Swastika Infra Limited",
-"mcap_cr": 658.485504,
+"mcap_cr": 654.118144,
 "rev_ttm_cr": 513.9874816,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
@@ -9238,11 +9238,11 @@
 "industry": "Internet Retail"
 },
 "SWSOLAR.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sterling and Wilson Renewable Energy Limited",
-"mcap_cr": 3578.3213056,
+"mcap_cr": 3689.0198016,
 "rev_ttm_cr": 7155.449856,
 "sector": "Technology",
 "industry": "Solar"
@@ -9258,12 +9258,12 @@
 "industry": "Lodging"
 },
 "TALBROAUTO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Talbros Automotive Components Limited",
-"mcap_cr": 2402.7682816,
-"rev_ttm_cr": 901.6907776,
+"mcap_cr": 2545.6689152,
+"rev_ttm_cr": 953.723904,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
 },
@@ -9288,11 +9288,11 @@
 "industry": "Software - Application"
 },
 "TARACHAND.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tara Chand Infralogistic Solutions Limited",
-"mcap_cr": 367.8757632,
+"mcap_cr": 385.1384576,
 "rev_ttm_cr": 308.8451072,
 "sector": "Industrials",
 "industry": "Farm & Heavy Construction Machinery"
@@ -9308,21 +9308,21 @@
 "industry": "Specialty Industrial Machinery"
 },
 "TARC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "TARC Limited",
-"mcap_cr": 3785.4957568,
-"rev_ttm_cr": 471.0717952,
+"mcap_cr": 3659.4896896,
+"rev_ttm_cr": 353.1544064,
 "sector": "Real Estate",
 "industry": "Real Estate - Development"
 },
 "TARIL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Transformers and Rectifiers (India) Limited",
-"mcap_cr": 9308.1419776,
+"mcap_cr": 9204.584448,
 "rev_ttm_cr": 2862.9899264,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
@@ -9338,12 +9338,12 @@
 "industry": "Credit Services"
 },
 "TATACHEM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tata Chemicals Limited",
-"mcap_cr": 15406.3847424,
-"rev_ttm_cr": 15120.0006144,
+"mcap_cr": 16545.1464704,
+"rev_ttm_cr": 15419.9998464,
 "sector": "Basic Materials",
 "industry": "Chemicals"
 },
@@ -9358,12 +9358,12 @@
 "industry": "Packaged Foods"
 },
 "TATAPOWER.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "The Tata Power Company Limited",
-"mcap_cr": 115032.2212864,
-"rev_ttm_cr": 63444.779008,
+"mcap_cr": 110079.442944,
+"rev_ttm_cr": 67535.8113792,
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers"
 },
@@ -9378,11 +9378,11 @@
 "industry": "Steel"
 },
 "TATATECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tata Technologies Limited",
-"mcap_cr": 27034.9303808,
+"mcap_cr": 26791.3003008,
 "rev_ttm_cr": 6301.3801984,
 "sector": "Technology",
 "industry": "Information Technology Services"
@@ -9398,21 +9398,21 @@
 "industry": "Integrated Freight & Logistics"
 },
 "TCS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tata Consultancy Services Limited",
-"mcap_cr": 895621.3723136,
+"mcap_cr": 870728.9645056,
 "rev_ttm_cr": 283248.0075776,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
 "TDPOWERSYS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "TD Power Systems Limited",
-"mcap_cr": 18375.6210176,
+"mcap_cr": 19958.7561472,
 "rev_ttm_cr": 2124.3891712,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
@@ -9428,21 +9428,21 @@
 "industry": "Staffing & Employment Services"
 },
 "TEJASNET.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tejas Networks Limited",
-"mcap_cr": 7452.6294016,
+"mcap_cr": 7201.7772544,
 "rev_ttm_cr": 1447.3199616,
 "sector": "Technology",
 "industry": "Communication Equipment"
 },
 "TEMBO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tembo Global Industries Limited",
-"mcap_cr": 1043.2452608,
+"mcap_cr": 1004.147712,
 "rev_ttm_cr": 1144.4140032,
 "sector": "Industrials",
 "industry": "Metal Fabrication"
@@ -9458,51 +9458,51 @@
 "industry": "Information Technology Services"
 },
 "TEXRAIL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Texmaco Rail & Engineering Limited",
-"mcap_cr": 4358.739968,
+"mcap_cr": 4499.9221248,
 "rev_ttm_cr": 3832.9974784,
 "sector": "Industrials",
 "industry": "Railroads"
 },
 "THEJO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Thejo Engineering Limited",
-"mcap_cr": 2121.0271744,
-"rev_ttm_cr": 674.1401088,
+"mcap_cr": 2145.1051008,
+"rev_ttm_cr": 718.5465856,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "THERMAX.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Thermax Limited",
-"mcap_cr": 31382.7917824,
-"rev_ttm_cr": 10839.3496576,
+"mcap_cr": 30840.9532416,
+"rev_ttm_cr": 11121.319936,
 "sector": "Industrials",
 "industry": "Conglomerates"
 },
 "THOMASCOOK.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Thomas Cook (India) Limited",
-"mcap_cr": 4722.71872,
+"mcap_cr": 5360.181248,
 "rev_ttm_cr": 7953.3203456,
 "sector": "Consumer Cyclical",
 "industry": "Travel Services"
 },
 "TI.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tilaknagar Industries Ltd.",
-"mcap_cr": 12014.3716352,
+"mcap_cr": 13027.0347264,
 "rev_ttm_cr": 3653.472256,
 "sector": "Consumer Defensive",
 "industry": "Beverages - Wineries & Distilleries"
@@ -9518,21 +9518,21 @@
 "industry": "Engineering & Construction"
 },
 "TIGERLOGS.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tiger Logistics (India) Limited",
-"mcap_cr": 270.656,
+"mcap_cr": 337.0512896,
 "rev_ttm_cr": 679.2349184,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
 },
 "TIMETECHNO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Time Technoplast Limited",
-"mcap_cr": 9275.9031808,
+"mcap_cr": 9513.8349056,
 "rev_ttm_cr": 6929.3252608,
 "sector": "Consumer Cyclical",
 "industry": "Packaging & Containers"
@@ -9548,11 +9548,11 @@
 "industry": "Tools & Accessories"
 },
 "TINNARUBR.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tinna Rubber and Infrastructure Limited",
-"mcap_cr": 1528.8170496,
+"mcap_cr": 1468.0138752,
 "rev_ttm_cr": 608.7897088,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
@@ -9588,21 +9588,21 @@
 "industry": "Specialty Chemicals"
 },
 "TITAGARH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Titagarh Rail Systems Limited",
-"mcap_cr": 9460.158464,
-"rev_ttm_cr": 3271.5900928,
+"mcap_cr": 9856.7725056,
+"rev_ttm_cr": 3265.1200512,
 "sector": "Industrials",
 "industry": "Railroads"
 },
 "TMCV.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tata Motors Limited",
-"mcap_cr": 160810.8343296,
+"mcap_cr": 164125.3830656,
 "rev_ttm_cr": 93951.000576,
 "sector": "Consumer Cyclical",
 "industry": "Auto Manufacturers"
@@ -9628,11 +9628,11 @@
 "industry": "Auto Parts"
 },
 "TORNTPOWER.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Torrent Power Limited",
-"mcap_cr": 62282.4783872,
+"mcap_cr": 61274.6723328,
 "rev_ttm_cr": 31109.6705024,
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers"
@@ -9648,21 +9648,21 @@
 "industry": "Integrated Freight & Logistics"
 },
 "TOUCHWOOD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Touchwood Entertainment Limited",
-"mcap_cr": 61.478752,
+"mcap_cr": 60.7363136,
 "rev_ttm_cr": 61.6409984,
 "sector": "Communication Services",
 "industry": "Advertising Agencies"
 },
 "TRANSRAILL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Transrail Lighting Limited",
-"mcap_cr": 5911.926784,
+"mcap_cr": 5923.360768,
 "rev_ttm_cr": 7381.4499328,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
@@ -9678,11 +9678,11 @@
 "industry": "Marine Shipping"
 },
 "TRAVELFOOD.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Travel Food Services Limited",
-"mcap_cr": 15697.936384,
+"mcap_cr": 15585.9779584,
 "rev_ttm_cr": 1724.9660928,
 "sector": "Consumer Cyclical",
 "industry": "Restaurants"
@@ -9698,21 +9698,21 @@
 "industry": "Confectioners"
 },
 "TRUALT.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "TruAlt Bioenergy Limited",
-"mcap_cr": 3011.631104,
+"mcap_cr": 2916.0167424,
 "rev_ttm_cr": 2746.7360256,
 "sector": "Energy",
 "industry": "Oil & Gas Refining & Marketing"
 },
 "TTML.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tata Teleservices (Maharashtra) Limited",
-"mcap_cr": 7688.7310336,
+"mcap_cr": 7254.736896,
 "rev_ttm_cr": 1177.5500288,
 "sector": "Communication Services",
 "industry": "Telecom Services"
@@ -9828,11 +9828,11 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "UNIDT.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "United Drilling Tools Limited",
-"mcap_cr": 380.5211904,
+"mcap_cr": 328.565504,
 "rev_ttm_cr": 183.9388032,
 "sector": "Energy",
 "industry": "Oil & Gas Equipment & Services"
@@ -9848,11 +9848,11 @@
 "industry": "Software - Application"
 },
 "UNIMECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Unimech Aerospace and Manufacturing Limited",
-"mcap_cr": 9193.918464,
+"mcap_cr": 9549.7232384,
 "rev_ttm_cr": 346.1388032,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
@@ -9868,12 +9868,12 @@
 "industry": "Beverages - Wineries & Distilleries"
 },
 "UNIVASTU.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Univastu India Limited",
-"mcap_cr": 534.8353536,
-"rev_ttm_cr": 317.662208,
+"mcap_cr": 578.0914176,
+"rev_ttm_cr": 419.2390912,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
@@ -9898,12 +9898,12 @@
 "industry": "Software - Application"
 },
 "URJA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Urja Global Limited",
-"mcap_cr": 471.9535104,
-"rev_ttm_cr": 61.6513024,
+"mcap_cr": 434.6207232,
+"rev_ttm_cr": 66.2088,
 "sector": "Technology",
 "industry": "Solar"
 },
@@ -9928,12 +9928,12 @@
 "industry": "Asset Management"
 },
 "UTKARSHBNK.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Utkarsh Small Finance Bank Limited",
-"mcap_cr": 2131.8692864,
-"rev_ttm_cr": 646.9164032,
+"mcap_cr": 2133.6487936,
+"rev_ttm_cr": 1023.1842816,
 "sector": "Financial Services",
 "industry": "Banks - Regional"
 },
@@ -9948,11 +9948,11 @@
 "industry": "Solar"
 },
 "VAKRANGEE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Vakrangee Limited",
-"mcap_cr": 622.8353024,
+"mcap_cr": 602.2546432,
 "rev_ttm_cr": 234.4531968,
 "sector": "Technology",
 "industry": "Information Technology Services"
@@ -9988,22 +9988,22 @@
 "industry": "Textile Manufacturing"
 },
 "VARROC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Varroc Engineering Limited",
-"mcap_cr": 12313.33376,
+"mcap_cr": 12772.4961792,
 "rev_ttm_cr": 10237.7668608,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
 },
 "VASCONEQ.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Vascon Engineers Limited",
 "mcap_cr": 721.238528,
-"rev_ttm_cr": 948.5272064,
+"rev_ttm_cr": 905.7472512,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
@@ -10038,11 +10038,11 @@
 "industry": "Lodging"
 },
 "VENUSREM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Venus Remedies Limited",
-"mcap_cr": 1938.2153216,
+"mcap_cr": 2041.26208,
 "rev_ttm_cr": 837.287424,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -10058,11 +10058,11 @@
 "industry": "Education & Training Services"
 },
 "VGL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Varvee Global Limited",
-"mcap_cr": 310.7179264,
+"mcap_cr": 300.2576128,
 "rev_ttm_cr": 63.5897024,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
@@ -10088,22 +10088,22 @@
 "industry": "Lodging"
 },
 "VIKRAMSOLR.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Vikram Solar Limited",
-"mcap_cr": 5071.5119616,
-"rev_ttm_cr": 5231.7659136,
+"mcap_cr": 5064.2644992,
+"rev_ttm_cr": 5205.6928256,
 "sector": "Technology",
 "industry": "Solar"
 },
 "VIKRAN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Vikran Engineering Limited",
-"mcap_cr": 1390.6562048,
-"rev_ttm_cr": 1231.7400064,
+"mcap_cr": 1370.5392128,
+"rev_ttm_cr": 1267.2900096,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
@@ -10178,21 +10178,21 @@
 "industry": "Steel"
 },
 "VITAL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Vital Chemtech Limited",
-"mcap_cr": 127.5396096,
+"mcap_cr": 119.683648,
 "rev_ttm_cr": 143.837696,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
 "VIVIANA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Viviana Power Tech Limited",
-"mcap_cr": 734.9085696,
+"mcap_cr": 701.6992768,
 "rev_ttm_cr": 629.6879104,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
@@ -10268,91 +10268,91 @@
 "industry": "Steel"
 },
 "VSTL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Vibhor Steel Tubes Limited",
-"mcap_cr": 197.5886592,
+"mcap_cr": 199.9589632,
 "rev_ttm_cr": 1212.0827904,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
 "WAAREEENER.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Waaree Energies Limited",
-"mcap_cr": 70301.9876352,
+"mcap_cr": 70230.0749824,
 "rev_ttm_cr": 31494.8288512,
 "sector": "Technology",
 "industry": "Solar"
 },
 "WAAREERTL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Waaree Renewable Technologies Limited",
-"mcap_cr": 7682.310144,
+"mcap_cr": 7494.9492736,
 "rev_ttm_cr": 3935.5420672,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "WABAG.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "VA Tech Wabag Limited",
-"mcap_cr": 12569.300992,
-"rev_ttm_cr": 4267.10016,
+"mcap_cr": 11753.1942912,
+"rev_ttm_cr": 4262.6998272,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "WALCHANNAG.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Walchandnagar Industries Limited",
-"mcap_cr": 1283.3683456,
+"mcap_cr": 1262.2016512,
 "rev_ttm_cr": 358.3300096,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "WELCORP.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Welspun Corp Limited",
-"mcap_cr": 58070.2437376,
+"mcap_cr": 59602.3640064,
 "rev_ttm_cr": 17569.8804736,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
 "WELENT.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Welspun Enterprises Limited",
-"mcap_cr": 9237.3352448,
-"rev_ttm_cr": 3544.0500736,
+"mcap_cr": 9509.2400128,
+"rev_ttm_cr": 3794.7101184,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "WEWIN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "We Win Limited",
-"mcap_cr": 43.1944096,
+"mcap_cr": 40.2578816,
 "rev_ttm_cr": 100.86144,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
 "WEWORK.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "WeWork India Management Limited",
-"mcap_cr": 9497.33376,
+"mcap_cr": 9659.7147648,
 "rev_ttm_cr": 2781.8379264,
 "sector": "Real Estate",
 "industry": "Real Estate Services"
@@ -10368,11 +10368,11 @@
 "industry": "Furnishings, Fixtures & Appliances"
 },
 "WIPRO.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Wipro Limited",
-"mcap_cr": 196887.5503616,
+"mcap_cr": 187874.2663168,
 "rev_ttm_cr": 97023.4003456,
 "sector": "Technology",
 "industry": "Information Technology Services"
@@ -10398,22 +10398,22 @@
 "industry": "Information Technology Services"
 },
 "XPROINDIA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Xpro India Limited",
-"mcap_cr": 2587.1413248,
-"rev_ttm_cr": 535.0111232,
+"mcap_cr": 2997.403648,
+"rev_ttm_cr": 591.7955072,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
 "XTGLOBAL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "XTGlobal Infotech Limited",
-"mcap_cr": 382.5208064,
-"rev_ttm_cr": 369.7177088,
+"mcap_cr": 392.3118336,
+"rev_ttm_cr": 365.5563008,
 "sector": "Technology",
 "industry": "Software - Application"
 },
@@ -10438,11 +10438,11 @@
 "industry": "Banks - Regional"
 },
 "ZAGGLE.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Zaggle Prepaid Ocean Services Limited",
-"mcap_cr": 2250.6932224,
+"mcap_cr": 2137.5254528,
 "rev_ttm_cr": 1998.9460992,
 "sector": "Technology",
 "industry": "Software - Infrastructure"
@@ -10458,31 +10458,31 @@
 "industry": "Textile Manufacturing"
 },
 "ZENSARTECH.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Zensar Technologies Limited",
-"mcap_cr": 12851.4056192,
+"mcap_cr": 11992.8283136,
 "rev_ttm_cr": 5974.6000896,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
 "ZENTEC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Zen Technologies Limited",
-"mcap_cr": 15403.9189504,
+"mcap_cr": 15466.8793856,
 "rev_ttm_cr": 842.6692096,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
 },
 "ZFCVINDIA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "ZF Commercial Vehicle Control Systems India Limited",
-"mcap_cr": 26416.5326848,
+"mcap_cr": 24783.4247168,
 "rev_ttm_cr": 4209.5640576,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
@@ -10498,7 +10498,7 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "ZODIAC.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Zodiac Energy Limited",
@@ -10748,41 +10748,41 @@
 "industry": "Capital Markets"
 },
 "INFOMEDIA.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Infomedia Press Limited",
-"mcap_cr": 27.6067936,
+"mcap_cr": 27.1048544,
 "rev_ttm_cr": 0.0231,
 "sector": "Financial Services",
 "industry": "Shell Companies"
 },
 "RAJSREESUG.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Rajshree Sugars & Chemicals Limited",
-"mcap_cr": 96.4246144,
+"mcap_cr": 93.8068992,
 "rev_ttm_cr": 556.9739776,
 "sector": "Consumer Defensive",
 "industry": "Confectioners"
 },
 "GPIL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Godawari Power & Ispat Limited",
-"mcap_cr": 13586.5982976,
+"mcap_cr": 14376.2751488,
 "rev_ttm_cr": 5807.869952,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
 "KPRMILL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "K.P.R. Mill Limited",
-"mcap_cr": 39554.5083904,
+"mcap_cr": 41688.4195328,
 "rev_ttm_cr": 7127.3299968,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
@@ -11048,27 +11048,27 @@
 "industry": "Capital Markets"
 },
 "ADVENZYMES.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Advanced Enzyme Technologies Limited",
-"mcap_cr": 3042.502656,
+"mcap_cr": 3053.827072,
 "rev_ttm_cr": 781.536,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
 "AVALON.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Avalon Technologies Limited",
-"mcap_cr": 12413.005824,
+"mcap_cr": 12212.9793024,
 "rev_ttm_cr": 1764.31104,
 "sector": "Technology",
 "industry": "Electronic Components"
 },
 "KUNDANMM.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": null,
@@ -11078,7 +11078,7 @@
 "industry": null
 },
 "MPIMANIPAL.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "MANIPAL PAYMENT & IDE S L",
@@ -11088,17 +11088,17 @@
 "industry": "Software - Infrastructure"
 },
 "WINDMACHIN.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Windsor Machines Limited",
-"mcap_cr": 3055.1564288,
-"rev_ttm_cr": 606.0279808,
+"mcap_cr": 3049.9833856,
+"rev_ttm_cr": 652.1689088,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "WINSOME.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Winsome Yarns Limited",
@@ -11108,11 +11108,11 @@
 "industry": "Textile Manufacturing"
 },
 "EVERESTIND.NS": {
-"updated": "2026-11-11",
+"updated": "2026-11-18",
 "v": 2,
 "fin_currency": "INR",
 "name": "Everest Industries Limited",
-"mcap_cr": 701.062144,
+"mcap_cr": 674.9794816,
 "rev_ttm_cr": 1364.5804544,
 "sector": "Industrials",
 "industry": "Building Products & Equipment"
@@ -11434,6 +11434,66 @@
 "name": "Roto Pumps Limited",
 "mcap_cr": 1339.9469056,
 "rev_ttm_cr": 294.3596032,
+"sector": "Industrials",
+"industry": "Specialty Industrial Machinery"
+},
+"EXCELSOFT.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "Excelsoft Technologies Limited",
+"mcap_cr": 867.1591424,
+"rev_ttm_cr": 313.3580032,
+"sector": "Technology",
+"industry": "Software - Application"
+},
+"EXIDEIND.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "Exide Industries Limited",
+"mcap_cr": 32312.7508992,
+"rev_ttm_cr": 19755.9697408,
+"sector": "Consumer Cyclical",
+"industry": "Auto Parts"
+},
+"GILLETTE.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "Gillette India Limited",
+"mcap_cr": 23130.6149888,
+"rev_ttm_cr": 3175.8299136,
+"sector": "Consumer Defensive",
+"industry": "Household & Personal Products"
+},
+"PGHL.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "Procter & Gamble Health Limited",
+"mcap_cr": 9070.7320832,
+"rev_ttm_cr": 1490.5100288,
+"sector": "Healthcare",
+"industry": "Drug Manufacturers - Specialty & Generic"
+},
+"SENORES.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "Senores Pharmaceuticals Limited",
+"mcap_cr": 5244.1219072,
+"rev_ttm_cr": 718.6699776,
+"sector": "Healthcare",
+"industry": "Drug Manufacturers - General"
+},
+"TEGA.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "Tega Industries Limited",
+"mcap_cr": 11916.754944,
+"rev_ttm_cr": 6907.9670784,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 }
