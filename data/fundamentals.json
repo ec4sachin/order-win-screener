@@ -11496,5 +11496,45 @@
 "rev_ttm_cr": 6907.9670784,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
+},
+"ACC.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "ACC Limited",
+"mcap_cr": 23094.0786688,
+"rev_ttm_cr": 24971.6998144,
+"sector": "Basic Materials",
+"industry": "Building Materials"
+},
+"GATEWAY.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "Gateway Distriparks Limited",
+"mcap_cr": 2358.3188992,
+"rev_ttm_cr": 2223.488,
+"sector": "Industrials",
+"industry": "Integrated Freight & Logistics"
+},
+"GSPLTRANS.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "GSPL Transmission Limited",
+"mcap_cr": 3213.4406144,
+"rev_ttm_cr": null,
+"sector": "Energy",
+"industry": "Oil & Gas Midstream"
+},
+"SYRMA.NS": {
+"updated": "2026-11-18",
+"v": 2,
+"fin_currency": "INR",
+"name": "Syrma SGS Technology Limited",
+"mcap_cr": 28412.182528,
+"rev_ttm_cr": 6307.4902016,
+"sector": "Technology",
+"industry": "Electronic Components"
 }
 }
