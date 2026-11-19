@@ -3570,12 +3570,12 @@
 "industry": "Lumber & Wood Production"
 },
 "GREENPOWER.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-19",
 "v": 2,
 "fin_currency": "INR",
 "name": "Orient Green Power Company Limited",
-"mcap_cr": 973.6163328,
-"rev_ttm_cr": 287.0599936,
+"mcap_cr": 1061.5937024,
+"rev_ttm_cr": 299.3799936,
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers"
 },
@@ -11556,5 +11556,15 @@
 "rev_ttm_cr": 65.88,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
+},
+"CYIENT.NS": {
+"updated": "2026-11-19",
+"v": 2,
+"fin_currency": "INR",
+"name": "Cyient Limited",
+"mcap_cr": 11582.713856,
+"rev_ttm_cr": 8086.1003776,
+"sector": "Industrials",
+"industry": "Conglomerates"
 }
 }
