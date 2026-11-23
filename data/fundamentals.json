@@ -240,11 +240,11 @@
 "industry": "Utilities - Independent Power Producers"
 },
 "ADANIENT.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "Adani Enterprises Limited",
-"mcap_cr": 359954.8547072,
+"mcap_cr": 362120.7932928,
 "rev_ttm_cr": 127398.4974848,
 "sector": "Energy",
 "industry": "Thermal Coal"
@@ -730,12 +730,12 @@
 "industry": "Engineering & Construction"
 },
 "ARKADE.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "Arkade Developers Limited",
-"mcap_cr": 2118.793216,
-"rev_ttm_cr": 803.9264256,
+"mcap_cr": 2077.5759872,
+"rev_ttm_cr": 684.9216,
 "sector": "Real Estate",
 "industry": "Real Estate - Development"
 },
@@ -7048,11 +7048,11 @@
 "industry": "Department Stores"
 },
 "PATINTLOG.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "Patel Integrated Logistics Limited",
-"mcap_cr": 79.2693952,
+"mcap_cr": 77.6005632,
 "rev_ttm_cr": 408.7362048,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
@@ -9058,11 +9058,11 @@
 "industry": "Specialty Chemicals"
 },
 "SUKHJITS.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "The Sukhjit Starch & Chemicals Limited",
-"mcap_cr": 487.4063872,
+"mcap_cr": 481.1575808,
 "rev_ttm_cr": 1555.8245376,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
@@ -10018,11 +10018,11 @@
 "industry": "Beverages - Non-Alcoholic"
 },
 "VEDL.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "Vedanta Limited",
-"mcap_cr": 98791.4829824,
+"mcap_cr": 91829.2201472,
 "rev_ttm_cr": 94172.9972224,
 "sector": "Basic Materials",
 "industry": "Other Industrial Metals & Mining"
@@ -10928,21 +10928,21 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "WOCKPHARMA.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "Wockhardt Limited",
-"mcap_cr": 32783.581184,
+"mcap_cr": 35029.499904,
 "rev_ttm_cr": 3840.0,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "WONDERLA.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "Wonderla Holidays Limited",
-"mcap_cr": 3264.6475776,
+"mcap_cr": 3158.3432704,
 "rev_ttm_cr": 629.5742976,
 "sector": "Consumer Cyclical",
 "industry": "Leisure"
@@ -11248,21 +11248,21 @@
 "industry": "Mortgage Finance"
 },
 "ICICIBANK.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "ICICI Bank Limited",
-"mcap_cr": 1137159.70048,
+"mcap_cr": 1142852.0001536,
 "rev_ttm_cr": 212121.485312,
 "sector": "Financial Services",
 "industry": "Banks - Regional"
 },
 "KRONOX.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "Kronox Lab Sciences Limited",
-"mcap_cr": 709.7995264,
+"mcap_cr": 664.1615872,
 "rev_ttm_cr": 106.6209024,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
@@ -11398,12 +11398,12 @@
 "industry": "Communication Equipment"
 },
 "MVELECTRO.NS": {
-"updated": "2026-11-16",
+"updated": "2026-11-23",
 "v": 2,
 "fin_currency": "INR",
 "name": "MV Electrosystems Limited",
-"mcap_cr": 2279.062528,
-"rev_ttm_cr": 48.752,
+"mcap_cr": 2155.7448704,
+"rev_ttm_cr": 55.268,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
@@ -11586,5 +11586,15 @@
 "rev_ttm_cr": 4013.9718656,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
+},
+"CAMS.NS": {
+"updated": "2026-11-23",
+"v": 2,
+"fin_currency": "INR",
+"name": "Computer Age Management Services Limited",
+"mcap_cr": 18047.2184832,
+"rev_ttm_cr": 1594.8544,
+"sector": "Technology",
+"industry": "Information Technology Services"
 }
 }
