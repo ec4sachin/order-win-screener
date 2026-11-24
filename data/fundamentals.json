@@ -11596,5 +11596,55 @@
 "rev_ttm_cr": 1594.8544,
 "sector": "Technology",
 "industry": "Information Technology Services"
+},
+"AGIIL.NS": {
+"updated": "2026-11-24",
+"v": 2,
+"fin_currency": "INR",
+"name": "AGI Infra Limited",
+"mcap_cr": 4237.2296704,
+"rev_ttm_cr": 375.9015936,
+"sector": "Real Estate",
+"industry": "Real Estate - Development"
+},
+"CROWN.NS": {
+"updated": "2026-11-24",
+"v": 2,
+"fin_currency": "INR",
+"name": "Crown Lifters Limited",
+"mcap_cr": 115.8072832,
+"rev_ttm_cr": 46.8286016,
+"sector": "Industrials",
+"industry": "Rental & Leasing Services"
+},
+"FINKURVE.NS": {
+"updated": "2026-11-24",
+"v": 2,
+"fin_currency": "INR",
+"name": "Finkurve Financial Services Limited",
+"mcap_cr": 866.930688,
+"rev_ttm_cr": 183.152,
+"sector": "Financial Services",
+"industry": "Credit Services"
+},
+"GANGESSECU.NS": {
+"updated": "2026-11-24",
+"v": 2,
+"fin_currency": "INR",
+"name": "Ganges Securities Limited",
+"mcap_cr": 110.5607424,
+"rev_ttm_cr": 38.4718016,
+"sector": "Consumer Defensive",
+"industry": "Packaged Foods"
+},
+"TIIL.NS": {
+"updated": "2026-11-24",
+"v": 2,
+"fin_currency": "INR",
+"name": "Technocraft Industries (India) Limited",
+"mcap_cr": 6332.2853376,
+"rev_ttm_cr": 3141.9492352,
+"sector": "Industrials",
+"industry": "Tools & Accessories"
 }
 }
