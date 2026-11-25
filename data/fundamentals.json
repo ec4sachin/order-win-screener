@@ -340,11 +340,11 @@
 "industry": "Aerospace & Defense"
 },
 "AEROENTER.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Aeroflex Enterprises Limited",
-"mcap_cr": 1536.4303872,
+"mcap_cr": 1333.0743296,
 "rev_ttm_cr": 838.5870848,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
@@ -1090,11 +1090,11 @@
 "industry": "Household & Personal Products"
 },
 "BAJAJELEC.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Bajaj Electricals Limited",
-"mcap_cr": 3209.9313664,
+"mcap_cr": 3171.8412288,
 "rev_ttm_cr": 4521.2459008,
 "sector": "Consumer Cyclical",
 "industry": "Furnishings, Fixtures & Appliances"
@@ -2460,11 +2460,11 @@
 "industry": "Real Estate - Development"
 },
 "DHARMAJ.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Dharmaj Crop Guard Limited",
-"mcap_cr": 846.9602816,
+"mcap_cr": 816.3737088,
 "rev_ttm_cr": 1138.3140352,
 "sector": "Basic Materials",
 "industry": "Agricultural Inputs"
@@ -2600,11 +2600,11 @@
 "industry": "Utilities - Regulated Electric"
 },
 "DRREDDY.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Dr. Reddy's Laboratories Limited",
-"mcap_cr": 116562.919424,
+"mcap_cr": 116546.2470656,
 "rev_ttm_cr": 32984.301568,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -3570,11 +3570,11 @@
 "industry": "Lumber & Wood Production"
 },
 "GREENPOWER.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Orient Green Power Company Limited",
-"mcap_cr": 1061.5937024,
+"mcap_cr": 1014.672384,
 "rev_ttm_cr": 299.3799936,
 "sector": "Utilities",
 "industry": "Utilities - Independent Power Producers"
@@ -4150,11 +4150,11 @@
 "industry": "Credit Services"
 },
 "IIFLCAPS.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "IIFL Capital Services Limited",
-"mcap_cr": 13159.1675904,
+"mcap_cr": 12460.40064,
 "rev_ttm_cr": 2487.4973184,
 "sector": "Financial Services",
 "industry": "Capital Markets"
@@ -7838,11 +7838,11 @@
 "industry": "Confectioners"
 },
 "REPCOHOME.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Repco Home Finance Limited",
-"mcap_cr": 2386.0901888,
+"mcap_cr": 2273.4798848,
 "rev_ttm_cr": 856.630016,
 "sector": "Financial Services",
 "industry": "Mortgage Finance"
@@ -8368,12 +8368,12 @@
 "industry": "Specialty Business Services"
 },
 "SECURKLOUD.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "SecureKloud Technologies Limited",
-"mcap_cr": 45.3381888,
-"rev_ttm_cr": 39.9640992,
+"mcap_cr": 41.9303072,
+"rev_ttm_cr": 49.1804,
 "sector": "Technology",
 "industry": "Software - Application"
 },
@@ -8938,11 +8938,11 @@
 "industry": "Utilities - Regulated Gas"
 },
 "STEELCITY.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Steel City Securities Limited",
-"mcap_cr": 122.5940736,
+"mcap_cr": 124.4522496,
 "rev_ttm_cr": 71.9950976,
 "sector": "Financial Services",
 "industry": "Capital Markets"
@@ -9268,7 +9268,7 @@
 "industry": "Auto Parts"
 },
 "TALWALKARS.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": null,
@@ -10788,7 +10788,7 @@
 "industry": "Textile Manufacturing"
 },
 "ARHAM.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "ARHAM TECHNOLOGIES LTD",
@@ -10798,41 +10798,41 @@
 "industry": "Consumer Electronics"
 },
 "JPL.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Jio Platforms Limited",
-"mcap_cr": 1278673.944576,
+"mcap_cr": 1287054.0591104,
 "rev_ttm_cr": 155169.2988416,
 "sector": "Technology",
 "industry": "Software - Infrastructure"
 },
 "AMBUJACEM.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Ambuja Cements Limited",
-"mcap_cr": 95615.7591552,
+"mcap_cr": 97404.8329728,
 "rev_ttm_cr": 39888.6797312,
 "sector": "Basic Materials",
 "industry": "Building Materials"
 },
 "CENTENKA.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Century Enka Limited",
-"mcap_cr": 1024.3555328,
+"mcap_cr": 998.8996096,
 "rev_ttm_cr": 2007.7000704,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
 },
 "INFY.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "USD",
 "name": "Infosys Limited",
-"mcap_cr": 449105.7823744,
+"mcap_cr": 457692.5188096,
 "rev_ttm_cr": 179229.5960576,
 "sector": "Technology",
 "industry": "Information Technology Services"
@@ -11118,41 +11118,41 @@
 "industry": "Building Products & Equipment"
 },
 "AMNPLST.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Amines & Plasticizers Limited",
-"mcap_cr": 837.4043648,
+"mcap_cr": 801.0912256,
 "rev_ttm_cr": 597.9656192,
 "sector": "Basic Materials",
 "industry": "Chemicals"
 },
 "LAXMIDENTL.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Laxmi Dental Limited",
-"mcap_cr": 1075.2198656,
+"mcap_cr": 1043.7430272,
 "rev_ttm_cr": 294.212992,
 "sector": "Healthcare",
 "industry": "Medical Instruments & Supplies"
 },
 "MANIPALHOS.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Manipal Health Enterprises Limited",
-"mcap_cr": 90609.7524736,
+"mcap_cr": 93036.6226432,
 "rev_ttm_cr": 12112.6813696,
 "sector": "Healthcare",
 "industry": "Medical Care Facilities"
 },
 "BHARATSE.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Bharat Seats Limited",
-"mcap_cr": 1309.5684096,
+"mcap_cr": 1289.7235968,
 "rev_ttm_cr": 2352.3330048,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
@@ -11268,32 +11268,32 @@
 "industry": "Specialty Chemicals"
 },
 "ARIES.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Aries Agro Limited",
-"mcap_cr": 702.2992896,
-"rev_ttm_cr": 766.126592,
+"mcap_cr": 676.3556352,
+"rev_ttm_cr": 810.6484224,
 "sector": "Basic Materials",
 "industry": "Agricultural Inputs"
 },
 "ASAHISONG.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Asahi Songwon Colors Limited",
-"mcap_cr": 459.0549504,
-"rev_ttm_cr": 574.50368,
+"mcap_cr": 409.7841664,
+"rev_ttm_cr": 654.9665792,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
 "WEL.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Wonder Electricals Limited",
-"mcap_cr": 1051.4267136,
-"rev_ttm_cr": 774.2955008,
+"mcap_cr": 1167.8797824,
+"rev_ttm_cr": 774.2426112,
 "sector": "Consumer Cyclical",
 "industry": "Furnishings, Fixtures & Appliances"
 },
@@ -11538,31 +11538,31 @@
 "industry": "Electronic Components"
 },
 "SPANDANA.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Spandana Sphoorty Financial Limited",
-"mcap_cr": 1636.0194048,
+"mcap_cr": 1575.123968,
 "rev_ttm_cr": 181.1800064,
 "sector": "Financial Services",
 "industry": "Credit Services"
 },
 "WSI.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "W.S. Industries (India) Limited",
-"mcap_cr": 594.4121344,
-"rev_ttm_cr": 65.88,
+"mcap_cr": 545.5355392,
+"rev_ttm_cr": 41.86,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "CYIENT.NS": {
-"updated": "2026-11-19",
+"updated": "2026-11-26",
 "v": 2,
 "fin_currency": "INR",
 "name": "Cyient Limited",
-"mcap_cr": 11582.713856,
+"mcap_cr": 12001.8173952,
 "rev_ttm_cr": 8086.1003776,
 "sector": "Industrials",
 "industry": "Conglomerates"
@@ -11666,5 +11666,15 @@
 "rev_ttm_cr": 410.168448,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
+},
+"JSLL.NS": {
+"updated": "2026-11-26",
+"v": 2,
+"fin_currency": "INR",
+"name": "Jeena Sikho Lifecare Limited",
+"mcap_cr": 3769.5070208,
+"rev_ttm_cr": 896.7667712,
+"sector": "Healthcare",
+"industry": "Medical Care Facilities"
 }
 }
