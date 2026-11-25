@@ -9368,12 +9368,12 @@
 "industry": "Utilities - Independent Power Producers"
 },
 "TATASTEEL.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-25",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tata Steel Limited",
-"mcap_cr": 217102.9815296,
-"rev_ttm_cr": 239756.115968,
+"mcap_cr": 198676.4603392,
+"rev_ttm_cr": 246503.047168,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
@@ -11656,5 +11656,15 @@
 "rev_ttm_cr": 5292.6201856,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
+},
+"BETA.NS": {
+"updated": "2026-11-25",
+"v": 2,
+"fin_currency": "INR",
+"name": "Beta Drugs Limited",
+"mcap_cr": 1737.7671168,
+"rev_ttm_cr": 410.168448,
+"sector": "Healthcare",
+"industry": "Drug Manufacturers - Specialty & Generic"
 }
 }
