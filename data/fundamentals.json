@@ -530,11 +530,11 @@
 "industry": "Textile Manufacturing"
 },
 "AMBER.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Amber Enterprises India Limited",
-"mcap_cr": 23618.8237824,
+"mcap_cr": 24073.7779712,
 "rev_ttm_cr": 13605.228544,
 "sector": "Consumer Cyclical",
 "industry": "Furnishings, Fixtures & Appliances"
@@ -1230,12 +1230,12 @@
 "industry": "Pollution & Treatment Controls"
 },
 "BANSALWIRE.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Bansal Wire Industries Limited",
-"mcap_cr": 4908.0291328,
-"rev_ttm_cr": 4388.6698496,
+"mcap_cr": 4238.7525632,
+"rev_ttm_cr": 4641.5261696,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
@@ -1470,12 +1470,12 @@
 "industry": "Building Materials"
 },
 "BLACKBUCK.NS": {
-"updated": "2026-10-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "BlackBuck Limited",
-"mcap_cr": 10648.3269632,
-"rev_ttm_cr": 712.5250048,
+"mcap_cr": 9395.4220032,
+"rev_ttm_cr": 796.715008,
 "sector": "Technology",
 "industry": "Software - Application"
 },
@@ -3050,11 +3050,11 @@
 "industry": "Specialty Chemicals"
 },
 "FINOPB.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Fino Payments Bank Limited",
-"mcap_cr": 1002.1992448,
+"mcap_cr": 964.5012992,
 "rev_ttm_cr": 1230.8672512,
 "sector": "Financial Services",
 "industry": "Banks - Regional"
@@ -6528,11 +6528,11 @@
 "industry": "Education & Training Services"
 },
 "NIITMTS.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "NIIT Learning Systems Limited",
-"mcap_cr": 2321.665024,
+"mcap_cr": 2256.4530176,
 "rev_ttm_cr": 2118.571008,
 "sector": "Consumer Defensive",
 "industry": "Education & Training Services"
@@ -6678,11 +6678,11 @@
 "industry": "Software - Application"
 },
 "NURECA.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Nureca Limited",
-"mcap_cr": 298.6048256,
+"mcap_cr": 306.5536512,
 "rev_ttm_cr": 173.9160064,
 "sector": "Healthcare",
 "industry": "Medical Devices"
@@ -7008,12 +7008,12 @@
 "industry": "Medical Care Facilities"
 },
 "PARKHOTELS.NS": {
-"updated": "2026-10-21",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Apeejay Surrendra Park Hotels Limited",
-"mcap_cr": 2248.3245056,
-"rev_ttm_cr": 719.8099968,
+"mcap_cr": 2190.9266432,
+"rev_ttm_cr": 730.2199808,
 "sector": "Consumer Cyclical",
 "industry": "Lodging"
 },
@@ -9068,11 +9068,11 @@
 "industry": "Specialty Chemicals"
 },
 "SULA.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sula Vineyards Limited",
-"mcap_cr": 1136.9974784,
+"mcap_cr": 1141.8110976,
 "rev_ttm_cr": 563.7300224,
 "sector": "Consumer Defensive",
 "industry": "Beverages - Wineries & Distilleries"
@@ -10558,27 +10558,27 @@
 "industry": null
 },
 "UGROCAP.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "UGRO Capital Limited",
-"mcap_cr": 1125.4861824,
+"mcap_cr": 1185.0843136,
 "rev_ttm_cr": 865.7941504,
 "sector": "Financial Services",
 "industry": "Credit Services"
 },
 "ANUHPHR.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Anuh Pharma Limited",
-"mcap_cr": 799.386624,
+"mcap_cr": 794.174976,
 "rev_ttm_cr": 778.3471104,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "CORONA.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "CORONA Remedies Limited",
@@ -10588,27 +10588,27 @@
 "industry": "Drug Manufacturers - General"
 },
 "FUSIONCX.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Fusion CX Limited",
-"mcap_cr": 3960.5260288,
-"rev_ttm_cr": 1818.1380096,
+"mcap_cr": 3901.3380096,
+"rev_ttm_cr": 1990.489088,
 "sector": "Industrials",
 "industry": "Specialty Business Services"
 },
 "HDFIRE.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "HD Fire Protect Limited",
-"mcap_cr": 5036.1102336,
+"mcap_cr": 4953.7523712,
 "rev_ttm_cr": 489.281024,
 "sector": "Industrials",
 "industry": "Specialty Industrial Machinery"
 },
 "HTEL.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "HY-TECH ENGINEERS LIMITED",
@@ -10618,72 +10618,72 @@
 "industry": "Specialty Industrial Machinery"
 },
 "INDOTHAI.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Indo Thai Securities Limited",
-"mcap_cr": 384.3009024,
+"mcap_cr": 358.1317632,
 "rev_ttm_cr": 78.6225024,
 "sector": "Financial Services",
 "industry": "Capital Markets"
 },
 "JAICORPLTD.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Jai Corp Limited",
-"mcap_cr": 1549.182464,
-"rev_ttm_cr": 606.6599936,
+"mcap_cr": 1528.8240128,
+"rev_ttm_cr": 626.1246976,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
 },
 "KSHINTL.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "KSH International Limited",
-"mcap_cr": 7122.7875328,
+"mcap_cr": 6828.2363904,
 "rev_ttm_cr": 4320.0,
 "sector": "Industrials",
 "industry": "Electrical Equipment & Parts"
 },
 "SHREECEM.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Shree Cement Limited",
-"mcap_cr": 90616.7975936,
+"mcap_cr": 91410.5761792,
 "rev_ttm_cr": 23031.1591936,
 "sector": "Basic Materials",
 "industry": "Building Materials"
 },
 "ZYDUSLIFE.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Zydus Lifesciences Limited",
-"mcap_cr": 119989.731328,
+"mcap_cr": 119121.903616,
 "rev_ttm_cr": 30378.098688,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "SMT.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sahajanand Medical Technologies Limited",
-"mcap_cr": 5479.2691712,
+"mcap_cr": 5624.1160192,
 "rev_ttm_cr": 1355.2104448,
 "sector": "Healthcare",
 "industry": "Medical Devices"
 },
 "ZETWERK.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Zetwerk Manufacturing Businesses Limited",
-"mcap_cr": 28754.8899328,
-"rev_ttm_cr": 17381.7643008,
+"mcap_cr": 31780.831232,
+"rev_ttm_cr": 18091.8616064,
 "sector": "Industrials",
 "industry": "Metal Fabrication"
 },
@@ -10838,41 +10838,41 @@
 "industry": "Information Technology Services"
 },
 "GODREJIND.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Godrej Industries Limited",
-"mcap_cr": 37060.3491328,
+"mcap_cr": 35547.8929408,
 "rev_ttm_cr": 26962.1100544,
 "sector": "Industrials",
 "industry": "Conglomerates"
 },
 "NETWORK18.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Network18 Media & Investments Limited",
-"mcap_cr": 4012.578816,
+"mcap_cr": 3799.4397696,
 "rev_ttm_cr": 2216.0799744,
 "sector": "Communication Services",
 "industry": "Entertainment"
 },
 "VMART.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "V-Mart Retail Limited",
-"mcap_cr": 6189.2919296,
+"mcap_cr": 6166.2121984,
 "rev_ttm_cr": 4139.0698496,
 "sector": "Consumer Cyclical",
 "industry": "Department Stores"
 },
 "WANBURY.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Wanbury Limited",
-"mcap_cr": 635.209216,
+"mcap_cr": 650.7345408,
 "rev_ttm_cr": 675.5192832,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -11158,71 +11158,71 @@
 "industry": "Auto Parts"
 },
 "ASTRAL.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Astral Limited",
-"mcap_cr": 33699.479552,
+"mcap_cr": 33804.2519552,
 "rev_ttm_cr": 7196.3000832,
 "sector": "Industrials",
 "industry": "Building Products & Equipment"
 },
 "BAHETI.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Baheti Recycling Industries Limited",
-"mcap_cr": 805.8220032,
+"mcap_cr": 756.3037184,
 "rev_ttm_cr": 938.1900288,
 "sector": "Basic Materials",
 "industry": "Aluminum"
 },
 "SRTL.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Shree Ram Twistex Limited",
-"mcap_cr": 145.429056,
+"mcap_cr": 143.8300544,
 "rev_ttm_cr": 302.3673088,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
 },
 "BAIDFIN.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Baid Finserv Limited",
-"mcap_cr": 161.6059392,
+"mcap_cr": 160.3091968,
 "rev_ttm_cr": 59.7918016,
 "sector": "Financial Services",
 "industry": "Credit Services"
 },
 "JAYBARMARU.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Jay Bharat Maruti Limited",
-"mcap_cr": 1349.0115584,
+"mcap_cr": 1380.9452032,
 "rev_ttm_cr": 2861.7254912,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
 },
 "MARALOVER.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Maral Overseas Limited",
-"mcap_cr": 243.070848,
+"mcap_cr": 224.64128,
 "rev_ttm_cr": 1070.1852672,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
 },
 "SIRCA.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sirca Paints India Limited",
-"mcap_cr": 2295.2474624,
+"mcap_cr": 2289.2695552,
 "rev_ttm_cr": 537.2813824,
 "sector": "Basic Materials",
 "industry": "Specialty Chemicals"
@@ -11298,41 +11298,41 @@
 "industry": "Furnishings, Fixtures & Appliances"
 },
 "GUJALKALI.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Gujarat Alkalies and Chemicals Limited",
-"mcap_cr": 4247.5921408,
+"mcap_cr": 4203.5298304,
 "rev_ttm_cr": 4772.1742336,
 "sector": "Basic Materials",
 "industry": "Chemicals"
 },
 "PRIMESECU.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Prime Securities Limited",
-"mcap_cr": 1047.3363456,
-"rev_ttm_cr": 123.04,
+"mcap_cr": 1009.4706688,
+"rev_ttm_cr": 125.5100032,
 "sector": "Financial Services",
 "industry": "Capital Markets"
 },
 "SPARC.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sun Pharma Advanced Research Company Limited",
-"mcap_cr": 6249.3126656,
+"mcap_cr": 6098.0854784,
 "rev_ttm_cr": 1931.618304,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "PASUPTAC.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "Pasupati Acrylon Limited",
-"mcap_cr": 626.4275456,
+"mcap_cr": 586.4959488,
 "rev_ttm_cr": 1026.8577792,
 "sector": "Consumer Cyclical",
 "industry": "Textile Manufacturing"
@@ -11568,11 +11568,11 @@
 "industry": "Conglomerates"
 },
 "JKSHAH.NS": {
-"updated": "2026-11-20",
+"updated": "2026-11-27",
 "v": 2,
 "fin_currency": "INR",
 "name": "J.K. Shah Commerce Education Limited",
-"mcap_cr": null,
+"mcap_cr": 1696.779264,
 "rev_ttm_cr": null,
 "sector": "Consumer Defensive",
 "industry": "Education & Training Services"
@@ -11676,5 +11676,25 @@
 "rev_ttm_cr": 896.7667712,
 "sector": "Healthcare",
 "industry": "Medical Care Facilities"
+},
+"CRYSTALCP.NS": {
+"updated": "2026-11-27",
+"v": 2,
+"fin_currency": "INR",
+"name": null,
+"mcap_cr": null,
+"rev_ttm_cr": 2690.5100288,
+"sector": "Basic Materials",
+"industry": "Agricultural Inputs"
+},
+"MUTHOOTCAP.NS": {
+"updated": "2026-11-27",
+"v": 2,
+"fin_currency": "INR",
+"name": "Muthoot Capital Services Limited",
+"mcap_cr": 313.7037824,
+"rev_ttm_cr": 320.0624128,
+"sector": "Financial Services",
+"industry": "Credit Services"
 }
 }
