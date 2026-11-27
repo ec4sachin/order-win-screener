@@ -140,11 +140,11 @@
 "industry": "Beverages - Wineries & Distilleries"
 },
 "ABFRL.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Aditya Birla Fashion and Retail Limited",
-"mcap_cr": 4593.3338624,
+"mcap_cr": 4667.5574784,
 "rev_ttm_cr": 8419.3902592,
 "sector": "Consumer Cyclical",
 "industry": "Apparel Manufacturing"
@@ -3780,11 +3780,11 @@
 "industry": "Medical Care Facilities"
 },
 "HCL-INSYS.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "HCL Infosystems Limited",
-"mcap_cr": 313.4078464,
+"mcap_cr": 374.970112,
 "rev_ttm_cr": 17.8186,
 "sector": "Technology",
 "industry": "Electronics & Computer Distribution"
@@ -5678,11 +5678,11 @@
 "industry": "Paper & Paper Products"
 },
 "MAHEPC.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Mahindra EPC Irrigation Limited",
-"mcap_cr": 278.3615232,
+"mcap_cr": 278.4174336,
 "rev_ttm_cr": 327.28,
 "sector": "Industrials",
 "industry": "Farm & Heavy Construction Machinery"
@@ -6328,11 +6328,11 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "NATCOPHARM.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "NATCO Pharma Limited",
-"mcap_cr": 15973.9559936,
+"mcap_cr": 15688.531968,
 "rev_ttm_cr": 3092.3999232,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -6808,11 +6808,11 @@
 "industry": "Oil & Gas Integrated"
 },
 "ONMOBILE.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "OnMobile Global Limited",
-"mcap_cr": 547.9393792,
+"mcap_cr": 537.3039104,
 "rev_ttm_cr": 513.2199936,
 "sector": "Communication Services",
 "industry": "Telecom Services"
@@ -8168,12 +8168,12 @@
 "industry": "Lodging"
 },
 "SAMMAANCAP.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Sammaan Capital Limited",
-"mcap_cr": 15436.0987648,
-"rev_ttm_cr": -1261.2299776,
+"mcap_cr": 15082.7220992,
+"rev_ttm_cr": -855.7499904,
 "sector": "Financial Services",
 "industry": "Mortgage Finance"
 },
@@ -8518,11 +8518,11 @@
 "industry": "Auto Parts"
 },
 "SHAREINDIA.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Share India Securities Limited",
-"mcap_cr": 4002.916352,
+"mcap_cr": 3882.37312,
 "rev_ttm_cr": 1498.843648,
 "sector": "Financial Services",
 "industry": "Capital Markets"
@@ -10688,32 +10688,32 @@
 "industry": "Metal Fabrication"
 },
 "SBIFUNDS.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "SBI Funds Management Limited",
-"mcap_cr": 108674.9343744,
+"mcap_cr": 106964.0056832,
 "rev_ttm_cr": 5074.3721984,
 "sector": "Financial Services",
 "industry": "Asset Management"
 },
 "TONBO.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tonbo Imaging India Limited",
-"mcap_cr": 8346.574848,
+"mcap_cr": 7754.8511232,
 "rev_ttm_cr": 504.3892224,
 "sector": "Industrials",
 "industry": "Aerospace & Defense"
 },
 "AAKASH.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Aakash Exploration Services Limited",
-"mcap_cr": 74.9249984,
-"rev_ttm_cr": 116.4992,
+"mcap_cr": 72.9,
+"rev_ttm_cr": 118.76128,
 "sector": "Energy",
 "industry": "Oil & Gas Equipment & Services"
 },
@@ -10878,51 +10878,51 @@
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "ACEVECTOR.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "AceVector Limited",
-"mcap_cr": 1047.5594752,
+"mcap_cr": 1023.6152832,
 "rev_ttm_cr": 551.4599936,
 "sector": "Consumer Cyclical",
 "industry": "Internet Retail"
 },
 "AERONEU.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Aeroflex Neu Limited",
-"mcap_cr": 279.892224,
+"mcap_cr": 289.1628032,
 "rev_ttm_cr": 129.6973056,
 "sector": "Consumer Cyclical",
 "industry": "Packaging & Containers"
 },
 "GAYAPROJ.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Gayatri Projects Limited",
-"mcap_cr": 849.6671744,
+"mcap_cr": 825.0593792,
 "rev_ttm_cr": 1041.5884288,
 "sector": "Industrials",
 "industry": "Engineering & Construction"
 },
 "VENUSPIPES.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Venus Pipes and Tubes Limited",
-"mcap_cr": 3927.26528,
+"mcap_cr": 4000.9146368,
 "rev_ttm_cr": 1283.308032,
 "sector": "Basic Materials",
 "industry": "Steel"
 },
 "WINDLAS.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Windlas Biotech Limited",
-"mcap_cr": 1983.6573696,
+"mcap_cr": 1922.6773504,
 "rev_ttm_cr": 983.6080128,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
@@ -11228,11 +11228,11 @@
 "industry": "Specialty Chemicals"
 },
 "KROSS.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Kross Limited",
-"mcap_cr": 1837.0422784,
+"mcap_cr": 1807.0079488,
 "rev_ttm_cr": 822.356992,
 "sector": "Consumer Cyclical",
 "industry": "Auto Parts"
@@ -11338,61 +11338,61 @@
 "industry": "Textile Manufacturing"
 },
 "INDOMIM.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "INDO-MIM Limited",
-"mcap_cr": 62462.8269056,
+"mcap_cr": 66379.1140864,
 "rev_ttm_cr": 4456.8178688,
 "sector": "Industrials",
 "industry": "Metal Fabrication"
 },
 "PALASHSECU.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Palash Securities Limited",
-"mcap_cr": 76.8538368,
+"mcap_cr": 78.0241984,
 "rev_ttm_cr": 36.3323008,
 "sector": "Financial Services",
 "industry": "Asset Management"
 },
 "TATACOMM.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Tata Communications Limited",
-"mcap_cr": 49928.2935808,
+"mcap_cr": 48682.2281216,
 "rev_ttm_cr": 26013.8303488,
 "sector": "Communication Services",
 "industry": "Telecom Services"
 },
 "AMANTA.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "Amanta Healthcare Limited",
-"mcap_cr": 863.4482688,
+"mcap_cr": 810.2132736,
 "rev_ttm_cr": 303.5846912,
 "sector": "Healthcare",
 "industry": "Drug Manufacturers - Specialty & Generic"
 },
 "SRIT.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "SRIT India Limited",
-"mcap_cr": 829.6198144,
-"rev_ttm_cr": 386.3699968,
+"mcap_cr": 828.3986432,
+"rev_ttm_cr": 409.8919936,
 "sector": "Technology",
 "industry": "Information Technology Services"
 },
 "UMIYA-MRO.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "MRO-TEK Networks Limited",
-"mcap_cr": 180.530624,
+"mcap_cr": 174.9812992,
 "rev_ttm_cr": 70.7476992,
 "sector": "Technology",
 "industry": "Communication Equipment"
@@ -11578,12 +11578,12 @@
 "industry": "Education & Training Services"
 },
 "SKYWAYS.NS": {
-"updated": "2026-11-21",
+"updated": "2026-11-28",
 "v": 2,
 "fin_currency": "INR",
 "name": "SKYWAYS AIR SERVICES LTD",
-"mcap_cr": 1700.5195264,
-"rev_ttm_cr": 4013.9718656,
+"mcap_cr": 1679.8808064,
+"rev_ttm_cr": 4012.6877696,
 "sector": "Industrials",
 "industry": "Integrated Freight & Logistics"
 },
@@ -11696,5 +11696,15 @@
 "rev_ttm_cr": 320.0624128,
 "sector": "Financial Services",
 "industry": "Credit Services"
+},
+"ORICONENT.NS": {
+"updated": "2026-11-28",
+"v": 2,
+"fin_currency": "INR",
+"name": "Oricon Enterprises Limited",
+"mcap_cr": 882.6884096,
+"rev_ttm_cr": 58.4078976,
+"sector": "Consumer Cyclical",
+"industry": "Packaging & Containers"
 }
 }
